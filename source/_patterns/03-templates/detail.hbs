@@ -1,0 +1,27 @@
+{{> organisms-header }}
+<main role="main">
+	<div class="l-container">
+		{{> molecules-page-header }}
+	</div>
+
+	<div class="l l--two-col">
+
+		<div class="l-main">
+
+		</div><!--end .l-main-->
+
+		<div class="l-sidebar">
+			{{> organisms-text-passage }}
+
+			{{# priceSection }}
+			<span class="c-price">{{ label }}</span>
+			{{/ priceSection }}
+			{{# addToCart }}
+			{{> molecules-button }}
+			{{/ addToCart }}
+		</div><!--end .l-sidebar-->
+
+	</div><!--end l--two-col-->
+
+</main>
+{{> organisms-footer }}

@@ -1,0 +1,23 @@
+<div class="c-promo-block">
+	<div class="c-promo-block__body">
+		{{# promoBlockLink }}
+		<a href="{{ url }}" class="c-promo-block__link">
+		{{/ promoBlockLink }}
+			<h2 class="c-promo-block__heading">{{ heading }}</h2>
+		{{# promoBlockLink }}
+		</a>
+		{{/ promoBlockLink }}
+		<div class="c-promo-block__description">{{ description }}</div>
+	</div>
+	
+	<div class="c-promo-block__media">
+		{{# promoBlockLink }}
+		<a href="{{ url }}" class="c-promo-block__link">
+		{{/ promoBlockLink }}
+			<img src="{{ src }}" alt="{{ alt }}" class="c-promo-block__img" />
+		{{# promoBlockLink }}
+		</a>
+		{{/ promoBlockLink }}
+	</div>
+
+</div><!-- end c-tout -->

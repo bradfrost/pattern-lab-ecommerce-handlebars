@@ -1,0 +1,38 @@
+/*------------------------------------*\
+    #STACKED BLOCK
+\*------------------------------------*/
+/**
+ * 1) A block consisting of media, headline, and description all stacked on top
+ * of each other
+ */
+ .c-stacked-block {
+	 display: flex;
+	 flex-direction: column;
+	 max-width: 1024px;
+	 transition: transform 0.2s ease;
+
+	 &:hover, &:focus {
+		 transform: scale(1.05);
+	 }
+ }
+
+ .c-stacked-block__body {
+     flex: 1;
+ }
+
+.c-stacked-block__title {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: $color-brand-blue;
+}
+
+.c-stacked-block__excerpt {
+	margin-bottom: 0;
+}
+
+.c-stacked-block__meta {
+	color: $color-brand-blue;
+	font-size: $font-size-med-2;
+	font-weight: bold;
+	text-align: center;
+}

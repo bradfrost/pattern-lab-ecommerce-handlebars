@@ -1,0 +1,97 @@
+{
+	"hero" : {
+		"url": "link.pages-detail",
+		"src": "../../images/group-shoes.jpg",
+		"alt": "Group of shoes",
+		"headline" :  "Shoes For The Soul"
+	},
+	"promoBlock": {
+		"promoBlockLink": {
+			"url": "#"
+		},
+		"src": "../../images/women-boots.jpg",
+		"alt": "Women's boots",
+		"heading": "Go Out In Style",
+		"description": "Dive into the Fall season with these stylish casual boots that are great for a jump in the leaves or a night out on the town."
+	},
+	"toutSection" : {
+		"styleModifier" : "l-grid--3up",
+		"toutList" : [
+			{
+				"url": "link.pages-category",
+				"headline":  "Women's fashion",
+				"imgLandscapeSrc" : "../../images/woman-outside-brownstone.jpg",
+				"imgLandscapeAlt" : "Woman in sweater"
+			},
+			{
+				"url": "link.pages-category",
+				"headline": "Men's fashion",
+				"imgLandscapeSrc" : "../../images/smiling-man-in-formalwear.jpg",
+				"imgLandscapeAlt" : "Man in formalwear"
+			},
+			{
+				"url": "link.pages-category",
+				"headline": "Kid's Fashion",
+				"imgLandscapeSrc" : "../../images/father-daughter-fashion.jpg",
+				"imgLandscapeAlt" : "Child with father"
+			}
+	    ]
+	},
+	"inset-blocks" : [
+		{
+			"headline" : "This is the headline for the inset block"
+		}
+	],
+	"latestPosts" : {
+		"sectionTitle": "On Sale",
+		"stackedBlockList": [
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+				"stackedBlockMedia": {
+					"src" : "../../images/men-blue-shoes.jpg",
+					"alt" : "blue walking shoes"
+				},
+				"headline" : "Walking Shoes",
+				"excerpt" : "This casual pair of shoes will have you looking dapper in the city",
+				"label" : "$60"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+				"stackedBlockMedia": {
+					"src" : "../../images/women-hiking-boots.jpg",
+					"alt" : "leather boots"
+				},
+				"headline" : "Leather Boots",
+				"excerpt" : "Hike down the trail in these durable, 100% authentic leather boots.",
+				"label" : "$120"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+				"stackedBlockMedia": {
+					"src" : "../../images/women-blue-heels.jpg",
+					"alt" : "blue heels"
+				},
+				"headline" : "Blue Suede Heels",
+				"excerpt" : "Strut your stuff on the streets with these stunning high heels",
+				"label" : "$80"
+
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+				"stackedBlockMedia": {
+					"src" : "../../images/men-chucks.jpg",
+					"alt" : "chuck taylor shoes"
+				},
+				"headline" : "Boys Chucks",
+				"excerpt" : "These shoes are a great mix between athlete and trend setter",
+				"label" : "$50"
+
+			}
+		],
+		"btnText" : "View All Posts"
+	}
+}

@@ -1,0 +1,45 @@
+/*------------------------------------*\
+    #PRIMARY NAVIGATION
+\*------------------------------------*/
+
+/**
+ * Primary navigation existing in the header and maybe the footer
+ */
+
+ .c-primary-nav {
+
+	 @media all and (min-width: $bp-med) {
+		 margin-left: auto;
+	 }
+ }
+
+/**
+ * Primary navigation list
+ */
+.c-primary-nav__list {
+	display: flex;
+}
+
+/**
+ * Primary navigation item
+ */
+.c-primary-nav__item {
+	margin-right: 1rem;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+/**
+ * Primary navigation link
+ */
+.c-primary-nav__link {
+	display: block;
+	padding: 0.5rem 0;
+	cursor: pointer;
+	font-family: $font-family-secondary;
+	font-size: $font-size-med-2;
+	text-transform: uppercase;
+
+}

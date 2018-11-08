@@ -1,0 +1,59 @@
+/*------------------------------------*\
+    #PROMO BLOCK
+\*------------------------------------*/
+
+/**
+ * Primary navigation existing in the header and maybe the footer
+ */
+
+.c-promo-block {
+	margin-bottom: 2rem;
+	background: $color-brand-blue;
+	color: $color-neutral-white;
+
+	@media all and (min-width: $bp-med) {
+		display: flex;
+	}
+}
+
+.c-promo-block__media {
+
+	@media all and (min-width: $bp-large) {
+		width: 60%;
+	}
+}
+
+.c-promo-block__body {
+	padding: 2rem;
+
+	@media all and (min-width: $bp-large) {
+		flex: 1;
+	}
+}
+
+.c-promo-block__img {
+	display: block;
+}
+
+.c-promo-block__link {
+	color: $color-neutral-white;
+}
+
+.c-promo-block__heading {
+	display: inline;
+	color: inherit;
+	border-bottom: 2px solid $color-brand-orange;
+	font-size: $font-size-large;
+
+	@media all and (min-width: $bp-large) {
+		font-size: $font-size-xl;
+	}
+}
+
+.c-promo-block__description {
+	margin-top: 1rem;
+
+	@media all and (min-width: $bp-large) {
+		font-size: $font-size-med-2;
+	}
+}

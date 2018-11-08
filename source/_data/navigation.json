@@ -1,0 +1,34 @@
+{
+    "navToggle" : {
+        "styleModifier" : "c-btn--small c-header__nav-btn js-nav-trigger",
+        "buttonText" : "Menu"
+    },
+    "navItems" : [
+        {
+            "label" : "Women",
+            "url" : "#"
+        },
+        {
+            "label" : "Men",
+            "url" : "#"
+        },
+        {
+            "label" : "Kids",
+            "url" : "#"
+        }
+    ],
+    "footerNav" : [
+        {
+            "label" : "Women",
+            "url" : "#"
+        },
+        {
+            "label" : "Men",
+            "url" : "#"
+        },
+        {
+            "label" : "Kids",
+            "url" : "#"
+        }
+    ]
+}

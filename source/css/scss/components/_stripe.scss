@@ -1,0 +1,78 @@
+/*------------------------------------*\
+    #STRIPE
+\*------------------------------------*/
+
+/**
+ * 1) Block that contains a right and left column of text and other possible components
+ */
+.c-stripe {
+	display: flex;
+    padding: 2rem 0;
+}
+
+/**
+ * Stripe lef container
+ * 1) Contains elements that display on the left side of the stripe
+ */
+.c-stripe__left-container {
+    margin-right: 2rem;
+
+	@media all and (min-width: $bp-small-2) {
+		width: 20%;
+	}
+}
+
+.c-stripe__link {
+	display: block;
+	max-width: 10rem;
+}
+
+/**
+ * Stripe right container
+ * 1) Contains elements that display on the right side of the stripe
+ */
+.c-stripe__right-container {
+	flex: 1;
+
+	@media all and (min-width: $bp-small-2) {
+	    display: flex;
+		align-items: center;
+	}
+}
+
+.c-stripe__title {
+	margin-bottom: 2rem;
+	text-align: center;
+
+	@media all and (min-width: $bp-small-2) {
+		margin-bottom: 0;
+		margin-right: 2rem;
+		width: 40%;
+	}
+}
+
+.c-stripe__meta {
+	text-align: center;
+
+	@media all and (min-width: $bp-small-2) {
+		margin-left: 2rem;
+		width: 20%;
+	}
+}
+
+.c-stripe__meta-span {
+	color: $color-brand-blue;
+	font-size: $font-size-med-2;
+}
+
+
+/*------------------------------------*\
+    #STRIPE LIST
+\*------------------------------------*/
+
+/**
+ * 1) Block that contains a right and left column of text and other possible components
+ */
+ .c-stripe-list__item {
+     border-bottom: 1px solid $color-neutral-gray-13;
+ }

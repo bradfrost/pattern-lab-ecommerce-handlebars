@@ -1,4 +1,4 @@
-<div class="c-field em-c-field--checkbox {{ styleModifier }}">
+<div class="c-field c-field--checkbox {{ styleModifier }}">
 
 	<h4 for="{{ id }}" class="c-field__label">{{ label }}</h4>
 
@@ -10,7 +10,7 @@
             <li class="c-option-list__item">
 
                 <label class="c-input-group" for="{{ id }}">
-                    <input id="{{ id }}" type="checkbox" name="{{ name }}" value="{{ value }}" class="c-input-group__control em-js-checkbox-trigger" {{# checked}}checked{{/ checked }} {{# disabled }}disabled{{/ disabled }} {{# readOnly }}readonly{{/ readOnly }}>
+                    <input id="{{ id }}" type="checkbox" name="{{ name }}" value="{{ value }}" class="c-input-group__control js-checkbox-trigger" {{# checked}}checked{{/ checked }} {{# disabled }}disabled{{/ disabled }} {{# readOnly }}readonly{{/ readOnly }}>
                     <span class="c-input-group__text">{{ label }}</span>
                 </label>
 

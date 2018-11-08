@@ -7,10 +7,10 @@
         <ul class="c-option-list {{ styleModifier }}">
 
             {{# radios }}
-            <li class="c-option-list__item em-js-radio-trigger-parent">
+            <li class="c-option-list__item js-radio-trigger-parent">
 
                 <label class="c-input-group" for="{{ id }}">
-                    <input id="{{ id }}" type="radio" name="{{ name }}" value="{{ value }}" class="c-input-group__control em-js-radio-trigger" {{# checked}}checked{{/ checked }} {{# disabled }}disabled{{/ disabled }} {{# readOnly }}readonly{{/ readOnly }}>
+                    <input id="{{ id }}" type="radio" name="{{ name }}" value="{{ value }}" class="c-input-group__control js-radio-trigger" {{# checked}}checked{{/ checked }} {{# disabled }}disabled{{/ disabled }} {{# readOnly }}readonly{{/ readOnly }}>
                     <span class="c-input-group__text">{{ label }}</span>
                 </label>
 

@@ -41,7 +41,7 @@
     transition: all $anim-fade-quick $anim-ease;
 
     @media all and (min-width: $bp-large) {
-        padding: 1rem;
+        padding: 2rem;
         color: $color-neutral-white;
     }
  }

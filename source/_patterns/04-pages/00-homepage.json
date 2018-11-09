@@ -15,7 +15,7 @@
 		"description": "Dive into the Fall season with these stylish casual boots that are great for a jump in the leaves or a night out on the town."
 	},
 	"toutSection" : {
-		"styleModifier" : "l-grid--3up",
+		"styleModifier" : "l-grid--4up",
 		"toutList" : [
 			{
 				"url": "link.pages-category",
@@ -92,6 +92,8 @@
 
 			}
 		],
-		"btnText" : "View All Posts"
+		"btnTag": false,
+		"linkTag": true,
+		"buttonText" : "See All Sale Items"
 	}
 }

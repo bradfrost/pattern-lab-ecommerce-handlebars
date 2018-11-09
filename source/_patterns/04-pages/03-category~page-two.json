@@ -1,0 +1,52 @@
+{
+	"page": {
+        "title" : "Women's Shoes",
+        "description": false
+    },
+	"stackedBlockSection" : {
+		"styleModifier": "u-margin-bottom-large",
+		"stackedBlockList": [
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+                "stackedBlockMedia": {
+    				"src" : "../../../images/women-shiny-sneakers.jpg",
+    				"alt" : "woman in sweater"
+                },
+				"headline" : "Navy Blue Dress",
+				"excerpt" : "This casual navy blue dress is great for whipping up a dinner with friends",
+				"label" : "$190"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+                "stackedBlockMedia": {
+    				"src" : "../../../images/women-white-heels.jpg",
+    				"alt" : "woman in sweater"
+                },
+				"headline" :  "Long Button-Down Sweater",
+				"excerpt" : "Stay warm and look stylish in this button-down peach sweater that extends to your waist",
+				"label" : "$95"
+			}
+		]
+	},
+	"paginationList" : [
+		{
+			"url": "link.pages-category",
+			"number" : "Prev"
+		},
+		{
+			"url": "link.pages-category",
+			"number" : "1"
+		},
+		{
+			"itemModifier": "is-active",
+			"url": "link.pages-category-page-two",
+			"number" : "2"
+		},
+		{
+			"itemModifier": "is-disabled",
+			"number" : "Next"
+		}
+	]
+}

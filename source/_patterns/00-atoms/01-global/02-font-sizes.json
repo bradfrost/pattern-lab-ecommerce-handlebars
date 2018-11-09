@@ -29,6 +29,11 @@
       "name": "$font-size-xl",
       "value": "3rem",
       "comment": ""
+    },
+    {
+      "name": "$font-size-xxl",
+      "value": "4rem",
+      "comment": ""
     }
   ],
   "meta": {

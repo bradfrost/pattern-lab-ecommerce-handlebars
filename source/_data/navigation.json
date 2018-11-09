@@ -3,32 +3,46 @@
         "styleModifier" : "c-btn--small c-header__nav-btn js-nav-trigger",
         "buttonText" : "Menu"
     },
+    "paginationList" : [
+        {
+            "number" : "Prev"
+        },
+        {
+            "number" : "1"
+        },
+        {
+            "number" : "2"
+        },
+        {
+            "number" : "Next"
+        }
+    ],
     "navItems" : [
         {
             "label" : "Women",
-            "url" : "#"
+            "url" : "link.pages-category"
         },
         {
             "label" : "Men",
-            "url" : "#"
+            "url" : "link.pages-category-men"
         },
         {
             "label" : "Kids",
-            "url" : "#"
+            "url" : "link.pages-category-kids"
         }
     ],
     "footerNav" : [
         {
             "label" : "Women",
-            "url" : "#"
+            "url" : "link.pages-category"
         },
         {
             "label" : "Men",
-            "url" : "#"
+            "url" : "link.pages-category-men"
         },
         {
             "label" : "Kids",
-            "url" : "#"
+            "url" : "link.pages-category-kids"
         }
     ]
 }

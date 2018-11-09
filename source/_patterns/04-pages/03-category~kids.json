@@ -1,0 +1,67 @@
+{
+	"page": {
+        "title" : "Kids' Shoes",
+        "description": false
+    },
+	"stackedBlockSection" : {
+		"stackedBlockList": [
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+				"stackedBlockMedia": {
+					"src" : "../../images/girls-high-tops.jpg",
+					"alt" : "woman in sweater"
+				},
+				"headline" : "Striped Wool Sweater",
+				"excerpt" : "Orange and white sweater made from 100% wool and stylish for those brisk Fall and Winter months",
+				"label" : "$90"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+				"stackedBlockMedia": {
+					"src" : "../../../images/kids-green-shoes.jpg",
+					"alt" : "alt text"
+				},
+				"headline" : "Down Jacket",
+				"excerpt" : "This down jacket will protect you from the snowy weather while accenting your outfit during the winter months",
+				"label" : "$230"
+
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+				"stackedBlockMedia": {
+					"src" : "../../../images/kids-technicolor-nikes.jpg",
+					"alt" : ""
+				},
+				"headline" :  "Pinstripe Skirt and Tank Top",
+				"excerpt" : "This pinstripe skirt and tank top are a great pairing for a friendly get-together",
+				"label" : "$120"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+				"stackedBlockMedia": {
+					"src" : "../../../images/girls-nike.jpg",
+					"alt" : "woman painting"
+				},
+				"headline" :  "Plaid Flannel Button-Down Shirt",
+				"excerpt" : "Lounge around during the cold months in this comfortable plaid flannel shirt",
+				"label" : "$70"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+				"stackedBlockMedia": {
+					"src" : "../../../images/kids-velcro.jpg",
+					"alt" : "woman painting"
+				},
+				"headline" :  "Plaid Flannel Button-Down Shirt",
+				"excerpt" : "Lounge around during the cold months in this comfortable plaid flannel shirt",
+				"label" : "$70"
+			}
+		]
+	},
+	"paginationList": false
+}

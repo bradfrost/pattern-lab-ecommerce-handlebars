@@ -37,6 +37,10 @@
 
 .c-promo-block__link {
 	color: $color-neutral-white;
+
+	&:hover, &:focus {
+		color: $color-brand-orange;
+	}
 }
 
 .c-promo-block__heading {

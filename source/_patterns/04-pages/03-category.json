@@ -1,0 +1,119 @@
+{
+	"page": {
+        "title" : "Women's Shoes",
+        "description": false
+    },
+	"stackedBlockSection" : {
+		"styleModifier": "u-margin-bottom-large",
+		"stackedBlockList": [
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+				"stackedBlockMedia": {
+					"src" : "../../../images/women-boot-wedges.jpg",
+					"alt" : "woman in sweater"
+				},
+				"headline" :  "Suede Booties",
+				"excerpt" : "Comes in 2 colors. Overnight shipping available",
+				"label" : "$120"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+                "stackedBlockMedia": {
+    				"src" : "../../../images/women-adidas.jpg",
+    				"alt" : "woman in sweater"
+                },
+				"headline" : "Striped Wool Sweater",
+				"excerpt" : "Comes in 2 colors",
+				"label" : "$90"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+                "stackedBlockMedia": {
+    				"src" : "../../../images/women-blue-heels.jpg",
+    				"alt" : "woman in sweater"
+                },
+				"headline" : "Down Jacket",
+				"excerpt" : "Comes in 2 colors",
+				"label" : "$230"
+
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+                "stackedBlockMedia": {
+    				"src" : "../../../images/women-boots.jpg",
+    				"alt" : "leather boots"
+                },
+				"headline" :  "Plaid Flannel Button-Down Shirt",
+				"excerpt" : "Comes in 2 colors",
+				"label" : "$70"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+                "stackedBlockMedia": {
+    				"src" : "../../../images/women-colorful.jpg",
+    				"alt" : "woman in sweater"
+                },
+				"headline" : "Black Long-sleeved Shirt",
+				"excerpt" : "Comes in 2 colors",
+				"label" : "$75"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+                "stackedBlockMedia": {
+    				"src" : "../../../images/women-combat-boots.jpg",
+    				"alt" : "woman in sweater"
+                },
+				"headline" : "Pinstripe Blazer",
+				"excerpt" : "Comes in 2 colors",
+				"label" : "$180"
+
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+                "stackedBlockMedia": {
+    				"src" : "../../../images/women-hiking-boots.jpg",
+    				"alt" : "woman in sweater"
+                },
+				"headline" : "Cream Blazer",
+				"excerpt" : false,
+				"label" : "$180"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+                "stackedBlockMedia": {
+    				"src" : "../../../images/women-leather-booties.jpg",
+    				"alt" : "woman in sweater"
+                },
+				"headline" :  "Long Button-Down Sweater",
+				"excerpt" : "Comes in 2 colors",
+				"label" : "$95"
+			}
+		]
+	},
+	"paginationList" : [
+        {
+			"itemModifier": "is-disabled",
+            "number" : "Prev"
+        },
+        {
+			"itemModifier": "is-active",
+            "number" : "1"
+        },
+        {
+			"url": "link.pages-category-page-two",
+            "number" : "2"
+        },
+        {
+            "number" : "Next",
+			"url": "link.pages-category-page-two"
+        }
+    ]
+}

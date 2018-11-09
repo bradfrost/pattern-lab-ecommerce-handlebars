@@ -1,0 +1,102 @@
+{
+	"page": {
+        "title" : "Men's Shoes",
+        "description": false
+    },
+	"stackedBlockSection" : {
+		"styleModifier": "u-margin-bottom-large",
+		"stackedBlockList": [
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+                "stackedBlockMedia": {
+    				"src" : "../../../images/men-blue-shoes.jpg",
+    				"alt" : "woman in sweater"
+                },
+				"headline" : "Striped Wool Sweater",
+				"excerpt" : "Orange and white sweater made from 100% wool and stylish for those brisk Fall and Winter months",
+				"label" : "$90"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+                "stackedBlockMedia": {
+    				"src" : "../../../images/men-brown-dress-shoes.jpg",
+    				"alt" : "woman in sweater"
+                },
+				"headline" : "Down Jacket",
+				"excerpt" : "This down jacket will protect you from the snowy weather while accenting your outfit during the winter months",
+				"label" : "$230"
+
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+                "stackedBlockMedia": {
+    				"src" : "../../../images/men-brown-shoes.jpg",
+    				"alt" : "woman in sweater"
+                },
+				"headline" :  "Pinstripe Skirt and Tank Top",
+				"excerpt" : "This pinstripe skirt and tank top are a great pairing for a friendly get-together",
+				"label" : "$120"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+                "stackedBlockMedia": {
+    				"src" : "../../../images/men-casual-shoes.jpg",
+    				"alt" : "leather boots"
+                },
+				"headline" :  "Plaid Flannel Button-Down Shirt",
+				"excerpt" : "Lounge around during the cold months in this comfortable plaid flannel shirt",
+				"label" : "$70"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+                "stackedBlockMedia": {
+    				"src" : "../../../images/men-gray-shoes.jpg",
+    				"alt" : "woman in sweater"
+                },
+				"headline" : "Pinstripe Blazer",
+				"excerpt" : "This fashionable pinstripe blazer is perfect for a job interview or a happy hour",
+				"label" : "$180"
+
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+                "stackedBlockMedia": {
+    				"src" : "../../../images/men-loafers.jpg",
+    				"alt" : "woman in sweater"
+                },
+				"headline" : "Cream Blazer",
+				"excerpt" :  "Look professional at your business meetings or with friends on the town in this cream blazer",
+				"label" : "$180"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+                "stackedBlockMedia": {
+    				"src" : "../../../images/men-walking-shoes.jpg",
+    				"alt" : "woman in sweater"
+                },
+				"headline" :  "Long Button-Down Sweater",
+				"excerpt" : "Stay warm and look stylish in this button-down peach sweater that extends to your waist",
+				"label" : "$95"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+                "stackedBlockMedia": {
+    				"src" : "../../../images/men-winter-boots.jpg",
+    				"alt" : "woman in sweater"
+                },
+				"headline" : "Navy Blue Dress",
+				"excerpt" : "This casual navy blue dress is great for whipping up a dinner with friends",
+				"label" : "$190"
+			}
+		]
+	},
+	"paginationList": false
+}

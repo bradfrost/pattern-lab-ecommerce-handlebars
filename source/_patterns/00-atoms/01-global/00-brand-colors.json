@@ -6,6 +6,11 @@
       "comment": ""
     },
     {
+      "name": "$color-brand-blue-dark",
+      "value": "#041544",
+      "comment": ""
+    },
+    {
       "name": "$color-brand-orange",
       "value": "#ba6333",
       "comment": ""

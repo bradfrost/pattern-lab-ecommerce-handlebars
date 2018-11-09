@@ -4,24 +4,30 @@
 		{{> molecules-page-header }}
 	</div>
 
-	<div class="l l--two-col">
+	<div class="l-container">
+		<div class="l-page-layout l-page-layout--two-column">
 
-		<div class="l-main">
+			<div class="l-page-layout__main">
+				{{# featureImage }}
+				<img src="{{ src }}" alt="{{ alt }}" />
+				{{/ featureImage }}
+			</div><!--end .l-main-->
 
-		</div><!--end .l-main-->
+			<div class="l-page-layout__secondary">
+				<div class="l-linelength-container">
+					{{> organisms-text-passage }}
+				</div>
+				{{# priceSection }}
+				<span class="c-price">{{ label }}</span>
+				{{/ priceSection }}
+				{{> molecules-select-field }}
+				{{# addToCart }}
+				{{> molecules-button }}
+				{{/ addToCart }}
+			</div><!--end .l-sidebar-->
 
-		<div class="l-sidebar">
-			{{> organisms-text-passage }}
-
-			{{# priceSection }}
-			<span class="c-price">{{ label }}</span>
-			{{/ priceSection }}
-			{{# addToCart }}
-			{{> molecules-button }}
-			{{/ addToCart }}
-		</div><!--end .l-sidebar-->
-
-	</div><!--end l--two-col-->
+		</div><!--end l--two-col-->
+	</div>
 
 </main>
 {{> organisms-footer }}

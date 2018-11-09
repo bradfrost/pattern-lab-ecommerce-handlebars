@@ -6,7 +6,11 @@
  * Branding image or text of the site
  */
 .c-logo {
-	max-width: 14rem;
+	font-size: $font-size-large;
+
+	.c-footer & {
+		margin-bottom: 2rem;
+	}
 }
 
 /**
@@ -25,6 +29,10 @@
 
 .c-logo__left {
 	color: $color-brand-blue;
+
+	.c-logo--light & {
+		color: $color-neutral-white;
+	}
 }
 .c-logo__right {
 	color: $color-brand-orange;

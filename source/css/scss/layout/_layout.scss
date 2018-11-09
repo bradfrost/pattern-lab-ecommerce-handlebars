@@ -9,6 +9,7 @@
  */
 .l-container {
 	max-width: $l-max-width;
+	padding: 0 1rem;
 	margin: 0 auto;
 }
 
@@ -19,6 +20,42 @@
  */
 .l-linelength-container {
     max-width: $l-linelength-width;
+}
+
+/**
+ * 2 column layout
+ */
+.l-page-layout--two-column {
+	display: flex;
+	flex-direction: column;
+
+	.l-page-layout__main {
+		@media all and (min-width: $bp-large) {
+			width: 70%;
+			padding-right: $spacing;
+		}
+	}
+
+	/**
+	 * Sidebar
+	 */
+	.l-page-layout__secondary {
+
+		@media all and (min-width:$bp-small-2) {
+			display: flex;
+		}
+
+
+		@media all and (min-width: $bp-large) {
+			flex-direction: column;
+			width: 30%;
+			padding: 0 0 0 $spacing;
+		}
+	}
+
+	@media all and (min-width: $bp-large) {
+		flex-direction: row;
+	}
 }
 
 
@@ -48,5 +85,5 @@
  * Grid Item
  */
 .l-grid__item {
-
+	display: flex;
 }

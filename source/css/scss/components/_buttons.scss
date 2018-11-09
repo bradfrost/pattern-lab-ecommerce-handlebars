@@ -9,18 +9,18 @@
 .c-btn {
 	display: inline-block;
 	border: $border-thickness solid $color-btn-primary-border;
-	border-radius: $border-radius;
-	background: $color-neutral-gray-73;
+	background: $color-brand-blue;
 	color: $color-neutral-white;
 	line-height: 1;
-	font-weight: bold;
 	padding: 1rem 2rem;
 	border: 0;
+	text-transform: uppercase;
 	text-align: center;
 	transition: all $anim-fade-quick $anim-ease;
 
 	&:hover, &:focus {
-		background: $color-btn-primary-bg-hover;
+		color: $color-neutral-white;
+		background: $color-brand-blue-dark;
 	}
 }
 

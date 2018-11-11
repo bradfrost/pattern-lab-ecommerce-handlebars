@@ -1,0 +1,33 @@
+{
+    "page": {
+        "title": "You have 1 item in your cart",
+        "description": "Please review your cart details before checking out."
+    },
+    "stripeList": [
+		{
+			"url": "#",
+			"src": "../../images/women-boot-wedges.jpg",
+			"alt": "placeholder image",
+            "stripeField": {
+                "styleModifier": "c-field--small",
+                "label": "Quantity",
+                "value": "1"
+            },
+			"headline": "Suede Booties",
+			"cartPrice": {
+				"label": "Price",
+				"meta": "$120"
+			}
+		}
+	],
+    "totalPrice": {
+        "label": "Total",
+        "number": "$120"
+    },
+    "checkoutButton": {
+        "buttonTag": false,
+        "linkTag": true,
+        "url": "link.pages-checkout",
+        "buttonText": "Checkout"
+    }
+}

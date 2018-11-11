@@ -46,5 +46,17 @@
         "buttonTag": true,
         "styleModifier": "u-is-vishidden",
         "buttonText": "Search"
-    }
+    },
+    "fields": [
+        {}
+    ],
+    "selectField": [
+        {}
+    ],
+    "formButtons": [
+        {},
+        {
+            "styleModifier": "c-btn--bare"
+        }
+    ]
 }

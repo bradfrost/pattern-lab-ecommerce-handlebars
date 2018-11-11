@@ -24,6 +24,18 @@
 	}
 }
 
+.c-btn--bare {
+	background: none;
+	color: $color-brand-blue;
+	border: 1px solid transparent;
+
+	&:hover, &:focus {
+		background: none;
+		color: $color-brand-blue;
+		border-color: $color-brand-blue;
+	}
+}
+
 /*
  * Inner container wrapper
  * 1) Container is direct decendant of <button>, since there's

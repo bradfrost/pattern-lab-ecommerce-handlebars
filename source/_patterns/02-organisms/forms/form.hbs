@@ -1,0 +1,19 @@
+<form method="{{ method }}" action="{{ url }}" class="c-form {{ styleModifier }} js-form" {{# dataAttribute }} {{{ dataAttribute }}} {{/ dataAttribute}}>
+
+	<div class="c-form__body">
+
+		{{#each fields }}
+		{{> molecules-text-field }}
+		{{/ each }}
+
+		{{# selectField }}
+		{{> molecules-select-field }}
+		{{/ selectField }}
+
+	</div><!--end c-form__body-->
+
+	<div class="c-form__footer">
+		{{> organisms-button-group }}
+	</div><!--end c-form__footer-->
+
+</form><!--end c-form-->

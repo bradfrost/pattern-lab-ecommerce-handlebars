@@ -1,0 +1,40 @@
+{
+    "fields" : [
+        {
+            "label" : "Name"
+        },
+        {
+            "label" : "Address"
+        },
+        {
+            "label" : "City"
+        },
+        {
+            "label" : "State"
+        },
+        {
+            "label" : "Zip Code"
+        },
+        {
+            "label" : "Zip Code"
+        },
+        {
+            "label" : "Credit Card Number"
+        },
+        {
+            "label" : "Expiration Date"
+        },
+        {
+            "label" : "CVV"
+        }
+    ],
+    "selectField": false,
+    "buttonGroup" : [
+        {
+            "buttonTag" : false,
+            "linkTag" : true,
+            "url" : "link.pages-confirmation",
+            "buttonText": "Submit Payment"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+
+/*------------------------------------*\
+	#TOTAL CONTAINER
+\*------------------------------------*/
+
+/**
+ * 1)
+ */
+
+.c-total-container {
+    margin-top: 1rem;
+
+    @media all and (min-width: $bp-small-2) {
+        text-align: right;
+    }
+}
+
+.c-total {
+    display: flex;
+    align-items: center;
+
+    @media all and (min-width: $bp-small-2) {
+        justify-content: flex-end;
+    }
+}
+
+.c-total__label {
+    font-weight: bold;
+    margin-right: 0.5rem;
+    padding-bottom: 0;
+}
+
+.c-total__span {
+    font-family: $font-family-secondary;
+    font-size: $font-size-med-2;
+    color: $color-brand-blue;
+}

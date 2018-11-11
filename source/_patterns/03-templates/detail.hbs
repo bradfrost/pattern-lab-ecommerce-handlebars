@@ -17,13 +17,9 @@
 				<div class="l-linelength-container">
 					{{> organisms-text-passage }}
 				</div>
-				{{# priceSection }}
-				<span class="c-price">{{ label }}</span>
-				{{/ priceSection }}
-				{{> molecules-select-field }}
-				{{# addToCart }}
-				{{> molecules-button }}
-				{{/ addToCart }}
+				{{# checkoutForm }}
+				{{> organisms-form }}
+				{{/ checkoutForm }}
 			</div><!--end .l-sidebar-->
 
 		</div><!--end l--two-col-->

@@ -13,6 +13,10 @@
 	margin: 0 auto;
 }
 
+.l-container--narrow {
+	max-width: $l-max-width-narrow;
+}
+
 /**
  *
  * 1) This caps the width of text passages

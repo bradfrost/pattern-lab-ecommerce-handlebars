@@ -1,0 +1,7 @@
+{
+    "page": {
+        "title": "Your Order Has Been Processed",
+        "description": false
+    },
+    "htmlText": "<h2>Your confirmation number is: 1234567890</h2><p>Thank you for shopping with ThreadAhead!</p><p>You will receive a confirmation email shortly.</p>"
+}

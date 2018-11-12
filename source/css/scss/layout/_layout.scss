@@ -11,6 +11,10 @@
 	max-width: $l-max-width;
 	padding: 0 $spacing;
 	margin: 0 auto;
+
+	@media all and (min-width: $bp-large) {
+		padding: 0 $spacing-large;
+	}
 }
 
 .l-container--narrow {

@@ -121,6 +121,17 @@
     background: #808080;
 }
 
+.sg-pattern-example small {
+    font-size: 10px;
+    display: block;
+    margin-top: 0.5rem;
+}
+
+.sg-pattern-example small code {
+    font-size: inherit;
+    padding: 0.2em;
+}
+
 /**
  * Add height and overflow to two column fixed layout to show functionality only in style-guide example.
  */

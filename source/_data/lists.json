@@ -2,36 +2,36 @@
 	"stackedBlockList": [
 		{
 			"styleModifier" : "",
-			"url" : "link.pages-detail",
+			"url" : "#",
 			"stackedBlockMedia": {
-				"src" : "../../images/men-blue-shoes.jpg",
-				"alt" : "blue walking shoes"
+				"src" : "http://via.placeholder.com/1920x1280",
+				"alt" : "placeholder image"
 			},
-			"headline" : "Walking Shoes",
-			"excerpt" : "This casual pair of shoes will have you looking dapper in the city",
-			"label" : "$60"
+			"headline" : "Headline",
+			"excerpt" : "This is an excerpt",
+			"label" : "label"
 		},
 		{
 			"styleModifier" : "",
-			"url" : "link.pages-detail",
+			"url" : "#",
 			"stackedBlockMedia": {
-				"src" : "../../images/women-hiking-boots.jpg",
-				"alt" : "leather boots"
+				"src" : "http://via.placeholder.com/1920x1280",
+				"alt" : "placeholder image"
 			},
-			"headline" : "Leather Boots",
-			"excerpt" : "Hike down the trail in these durable, 100% authentic leather boots.",
-			"label" : "$120"
+			"headline" : "Headline",
+			"excerpt" : "This is an excerpt",
+			"label" : "label"
 		},
 		{
 			"styleModifier" : "",
-			"url" : "link.pages-detail",
+			"url" : "#",
 			"stackedBlockMedia": {
-				"src" : "../../images/women-blue-heels.jpg",
-				"alt" : "blue heels"
+				"src" : "http://via.placeholder.com/1920x1280",
+				"alt" : "placeholder image"
 			},
-			"headline" : "Blue Suede Heels",
-			"excerpt" : "Strut your stuff on the streets with these stunning high heels",
-			"label" : "$80"
+			"headline" : "Headline",
+			"excerpt" : "This is an excerpt",
+			"label" : "label"
 		}
 	],
 	"stripeList": [

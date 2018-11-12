@@ -93,7 +93,7 @@
         {
             "buttonTag" : false,
             "linkTag" : true,
-            "url" : "link.pages-confirmation",
+            "url" : "link.pages-review",
             "buttonText": "Submit Payment"
         }
     ]

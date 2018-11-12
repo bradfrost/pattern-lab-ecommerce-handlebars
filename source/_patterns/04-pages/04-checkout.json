@@ -1,7 +1,7 @@
 {
     "page": {
         "title": "Shipping Information",
-        "description": "Please make sure your order is correct and fill out your shipping information below."
+        "description": "Please fill out your shipping information below."
     },
     "stripeList": [
 		{

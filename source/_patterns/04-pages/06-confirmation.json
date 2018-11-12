@@ -1,4 +1,25 @@
 {
+    "progressTracker" : {
+        "items": [
+            {
+                "number": "1",
+                "label": "Shipping Information"
+            },
+            {
+                "number": "2",
+                "label": "Billing Information"
+            },
+            {
+                "number": "3",
+                "label": "Review Order"
+            },
+            {
+                "styleModifier": "is-current",
+                "number": "4",
+                "label": "Confirmation"
+            }
+        ]
+    },
     "page": {
         "title": "Your Order Has Been Processed",
         "description": false

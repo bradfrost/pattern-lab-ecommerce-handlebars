@@ -7,7 +7,7 @@
  * of each other
  * 2) Capped for demo purposes
  */
- .c-stacked-block {
+.c-stacked-block {
 	display: flex;
 	flex-direction: column;
     position: relative;
@@ -15,13 +15,13 @@
 	transition: transform $anim-fade-quick $anim-ease;
 
 	 &:hover, &:focus {
-		 transform: scale(1.03);
+		transform: scale(1.03);
 	 }
- }
+}
 
- .c-stacked-block__body {
-     flex: 1;
- }
+.c-stacked-block__body {
+    flex: 1;
+}
 
 .c-stacked-block__title {
 	text-transform: uppercase;

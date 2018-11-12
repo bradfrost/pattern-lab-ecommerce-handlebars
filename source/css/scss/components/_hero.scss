@@ -19,7 +19,7 @@
 
 .c-hero__body {
 
-    @media all and (min-width: $bp-large) {
+    @media all and (min-width: $bp-med) {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -37,11 +37,12 @@
  */
 .c-hero__headline {
     text-transform: uppercase;
-    font-size: $font-size-xxl;
+    font-size: $font-size-xl;
     transition: all $anim-fade-quick $anim-ease;
 
-    @media all and (min-width: $bp-large) {
+    @media all and (min-width: $bp-med) {
         padding: 2rem;
         color: $color-neutral-white;
+        font-size: $font-size-xxl;
     }
  }

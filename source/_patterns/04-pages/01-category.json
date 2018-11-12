@@ -107,6 +107,17 @@
 				"excerpt" : "Made of 100% authentic leather",
 				"label" : "$180"
 
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+                "stackedBlockMedia": {
+    				"src" : "../../../images/women-white-heels.jpg",
+    				"alt" : "white high heels"
+                },
+				"headline" :  "Shiny High Heels",
+				"excerpt" : "Available in 5 colors",
+				"label" : "$95"
 			}
 		]
 	},

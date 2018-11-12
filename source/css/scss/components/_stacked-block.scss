@@ -1,19 +1,21 @@
 /*------------------------------------*\
     #STACKED BLOCK
 \*------------------------------------*/
+
 /**
- * 1) A block consisting of media, headline, and description all stacked on top
+ * 1) A link block consisting of media, headline, and description all stacked on top
  * of each other
+ * 2) Capped for demo purposes
  */
  .c-stacked-block {
-	 display: flex;
-	 flex-direction: column;
-     position: relative;
-	 max-width: 1024px;
-	 transition: transform 0.2s ease;
+	display: flex;
+	flex-direction: column;
+    position: relative;
+	max-width: 600px; /* 2 */
+	transition: transform $anim-fade-quick $anim-ease;
 
 	 &:hover, &:focus {
-		 transform: scale(1.05);
+		 transform: scale(1.03);
 	 }
  }
 
@@ -25,10 +27,16 @@
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	color: $color-brand-blue;
+	transition: color $anim-fade-quick $anim-ease;
+
+	.c-stacked-block:hover &, .c-stacked-block:focus & {
+		color: $color-brand-orange;
+	}
 }
 
 .c-stacked-block__excerpt {
 	margin-bottom: 0;
+	color: $color-neutral-gray-73;
 }
 
 .c-stacked-block__meta {
@@ -36,6 +44,11 @@
     font-size: $font-size-med-2;
 	font-family: $font-family-secondary;
 	margin-bottom: 0;
+	transition: color $anim-fade-quick $anim-ease;
+
+	.c-stacked-block:hover &, .c-stacked-block:focus & {
+		color: $color-brand-orange;
+	}
 }
 
 .c-stacked-block__badge {

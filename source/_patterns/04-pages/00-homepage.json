@@ -1,4 +1,5 @@
 {
+	"headerStyleModifier": "u-margin-bottom-none",
 	"hero" : {
 		"url": "link.pages-detail",
 		"src": "../../images/group-shoes.jpg",

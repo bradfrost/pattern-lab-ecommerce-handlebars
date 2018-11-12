@@ -8,7 +8,7 @@
 
  .c-primary-nav {
 
-	 @media all and (min-width: 26em) {
+	 @media all and (min-width: 32em) {
 		 margin-left: auto;
 	 }
  }
@@ -18,7 +18,7 @@
  */
 .c-primary-nav__list {
 	display: flex;
-	align-items: center;
+    align-items: center;
 }
 
 /**

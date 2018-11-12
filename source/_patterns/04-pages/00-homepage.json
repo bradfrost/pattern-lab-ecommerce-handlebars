@@ -6,8 +6,16 @@
 		"alt": "Group of shoes",
 		"headline" :  "Shoes For The Soul"
 	},
-
 	"promoBlock": [
+		{
+			"promoBlockLink": {
+				"url": "#"
+			},
+			"src": "../../images/women-boots.jpg",
+			"alt": "Women's boots",
+			"heading": "Go Out In Style",
+			"description": "Dive into the Fall season with these stylish casual boots that are great for a jump in the leaves or a night out on the town."
+		},
 		{
 			"promoBlockLink": {
 				"url": "#"
@@ -31,7 +39,7 @@
 			"promoBlockLink": {
 				"url": "#"
 			},
-			"styleModifier": "c-promo-block--right",
+			"styleModifier": "c-promo-block--right u-margin-bottom-large",
 			"src": "../../images/kids-velcro.jpg",
 			"alt": "Women's boots",
 			"heading": "Go Out In Style",
@@ -61,12 +69,7 @@
 			}
 	    ]
 	},
-	"inset-blocks" : [
-		{
-			"headline" : "This is the headline for the inset block"
-		}
-	],
-	"latestPosts" : {
+	"saleSection" : {
 		"sectionTitle": "On Sale",
 		"stackedBlockList": [
 			{

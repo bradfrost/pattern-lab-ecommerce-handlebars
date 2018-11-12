@@ -1,8 +1,19 @@
 {{> organisms-header }}
 <main role="main">
 
+	<div class="l-container u-margin-bottom-large">
+		{{> molecules-page-header }}
+		{{> organisms-stripe-list }}
+	</div>
 	<div class="l-container l-container--narrow">
-		{{> organisms-form }}
+		<section class="c-section">
+			{{#if sectionTitle}}
+			<header class="c-section__header">
+				<h2 class="c-section__title">{{ sectionTitle }}</h2>
+			</header>
+			{{/ if }}
+			{{> organisms-form }}
+		</section>
 	</div><!--end l-->
 
 </main>

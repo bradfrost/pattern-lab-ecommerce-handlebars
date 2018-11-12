@@ -1,6 +1,6 @@
 {
     "page": {
-        "title": "Shipping Information",
+        "title": "Billing Information",
         "description": "Please make sure your order is correct and fill out your shipping information below."
     },
     "stripeList": [
@@ -22,7 +22,7 @@
 			}
 		}
 	],
-    "sectionTitle": "Shipping Address",
+    "sectionTitle": "Billing Address & Payment Method",
     "formFields" : {
         "items": [
             {
@@ -51,9 +51,18 @@
                 }
             },
             {
-                "inlineCheckbox": {
-                    "styleModifier": "u-margin-bottom-large",
-                    "label": "Billing address is the same as shipping"
+                "textField": {
+                    "label" : "Credit Card Number"
+                }
+            },
+            {
+                "textField": {
+                    "label" : "Expiration Date"
+                }
+            },
+            {
+                "textField": {
+                    "label" : "CVV"
                 }
             }
         ]
@@ -63,8 +72,8 @@
         {
             "buttonTag" : false,
             "linkTag" : true,
-            "url" : "link.pages-checkout-billing",
-            "buttonText": "Continue to Billing"
+            "url" : "link.pages-confirmation",
+            "buttonText": "Submit Payment"
         }
     ]
 }

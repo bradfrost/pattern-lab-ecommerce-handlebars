@@ -2,13 +2,42 @@
 
 	<div class="c-form__body">
 
-		{{#each fields }}
-		{{> molecules-text-field }}
-		{{/ each }}
-
-		{{# selectField }}
-		{{> molecules-select-field }}
-		{{/ selectField }}
+		{{#if formFields }}
+		  {{#with formFields }}
+		    {{#each items }}
+		     	{{#if textField }}
+					{{# with textField }}
+						{{> molecules-text-field }}
+					{{/ with }}
+				{{/ if }}
+				{{#if selectField }}
+					{{# with selectField }}
+						{{> molecules-select-field }}
+					{{/ with }}
+				{{/ if }}
+				{{#if textAreaField }}
+					{{# with textAreaField }}
+						{{> molecules-textarea-field }}
+					{{/ with}}
+				{{/ if }}
+				{{#if radioField }}
+					{{# with radioField }}
+						{{> molecules-radio-field }}
+					{{/ with}}
+				{{/ if }}
+				{{#if checkboxField }}
+					{{# with checkboxField }}
+						{{> molecules-checkbox-field }}
+					{{/ with}}
+				{{/ if }}
+				{{#if inlineCheckbox }}
+					{{# with inlineCheckbox }}
+						{{> molecules-inline-checkbox }}
+					{{/ with}}
+				{{/ if }}
+		    {{/ each }}
+		  {{/ with }}
+		{{/ if }}
 
 	</div><!--end c-form__body-->
 

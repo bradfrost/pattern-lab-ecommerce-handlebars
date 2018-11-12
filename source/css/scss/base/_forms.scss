@@ -74,6 +74,12 @@ input, textarea {
     &:focus {
 		border-color: $color-form-border-focus;
 	}
+
+    &:disabled {
+        border-color: $color-neutral-gray-07;
+        background: $color-neutral-gray-07;
+        color: $color-neutral-gray-50;
+    }
 }
 
 /**

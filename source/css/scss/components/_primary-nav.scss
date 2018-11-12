@@ -44,6 +44,10 @@
 	text-transform: uppercase;
     transition: background $anim-fade-quick $anim-ease;
 
+    &:hover, &:focus {
+        color: $color-brand-orange;
+    }
+
     .c-primary-nav__item--highlight & {
         color: $color-neutral-white;
         background: $color-brand-orange;

@@ -1,11 +1,14 @@
 <a href="{{ url }}" class="c-stacked-block {{ styleModifier }}">
 
 	<div class="c-stacked-block__header">
-		{{# stackedBlockMedia }}
+		{{#with stackedBlockMedia }}
 		<div class="c-stacked-block__media">
 			<img src="{{ src }}" alt="{{ alt }}" class="c-stacked-block__img" />
 		</div>
-		{{/ stackedBlockMedia }}
+		{{/ with }}
+		{{# with onSale }}
+		<span class="c-stacked-block__badge">{{ badge }}</span>
+		{{/ with }}
 	</div>
 
 	<div class="c-stacked-block__body">
@@ -14,6 +17,9 @@
 	</div><!-- end c-stacked-block__body -->
 
 	<div class="c-stacked-block__footer">
-		<p class="c-stacked-block__meta">{{ label }}</p>
+		<span class="c-stacked-block__meta">{{ label }}</span>
+		{{# with onSale }}
+		<span class="c-stacked-block__optional">{{ price }}</span>
+		{{/ with }}
 	</div>
 </a><!-- end c-stacked-block -->

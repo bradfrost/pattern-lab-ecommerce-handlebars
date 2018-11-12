@@ -9,11 +9,27 @@
 				"styleModifier" : "",
 				"url" : "link.pages-detail",
 				"stackedBlockMedia": {
-					"src" : "../../images/girls-high-tops.jpg",
-					"alt" : "woman in sweater"
+					"src" : "../../images/men-chucks.jpg",
+					"alt" : "chuck taylor shoes"
 				},
-				"headline" : "Striped Wool Sweater",
-				"excerpt" : "Orange and white sweater made from 100% wool and stylish for those brisk Fall and Winter months",
+				"headline" : "Converse Chuck Taylor's",
+				"excerpt" : "Available in both boys' and girls' sizes",
+				"label" : "$50",
+				"onSale": {
+					"badge": "Sale",
+					"price": "$85"
+				}
+
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+				"stackedBlockMedia": {
+					"src" : "../../images/girls-high-tops.jpg",
+					"alt" : "girl's high tops"
+				},
+				"headline" : "Girl's High Tops",
+				"excerpt" : "Available in 4 color combinations",
 				"label" : "$90"
 			},
 			{
@@ -21,10 +37,10 @@
 				"url" : "link.pages-detail",
 				"stackedBlockMedia": {
 					"src" : "../../../images/kids-green-shoes.jpg",
-					"alt" : "alt text"
+					"alt" : "toddler green shoes"
 				},
-				"headline" : "Down Jacket",
-				"excerpt" : "This down jacket will protect you from the snowy weather while accenting your outfit during the winter months",
+				"headline" : "Toddler Green Shoes",
+				"excerpt" : "Suitable for ages 0-2 years",
 				"label" : "$230"
 
 			},
@@ -33,10 +49,10 @@
 				"url" : "link.pages-detail",
 				"stackedBlockMedia": {
 					"src" : "../../../images/kids-technicolor-nikes.jpg",
-					"alt" : ""
+					"alt" : "multicolored Nike shoes"
 				},
-				"headline" :  "Pinstripe Skirt and Tank Top",
-				"excerpt" : "This pinstripe skirt and tank top are a great pairing for a friendly get-together",
+				"headline" :  "Multicolored Nikes",
+				"excerpt" : "Available in toddler and youth sizes",
 				"label" : "$120"
 			},
 			{
@@ -44,10 +60,10 @@
 				"url" : "link.pages-detail",
 				"stackedBlockMedia": {
 					"src" : "../../../images/girls-nike.jpg",
-					"alt" : "woman painting"
+					"alt" : "girl's nike sneakers"
 				},
-				"headline" :  "Plaid Flannel Button-Down Shirt",
-				"excerpt" : "Lounge around during the cold months in this comfortable plaid flannel shirt",
+				"headline" :  "Girl's Nike Sneakers",
+				"excerpt" : "Available in 5 colors",
 				"label" : "$70"
 			},
 			{
@@ -55,10 +71,10 @@
 				"url" : "link.pages-detail",
 				"stackedBlockMedia": {
 					"src" : "../../../images/kids-velcro.jpg",
-					"alt" : "woman painting"
+					"alt" : "velcro shoes"
 				},
-				"headline" :  "Plaid Flannel Button-Down Shirt",
-				"excerpt" : "Lounge around during the cold months in this comfortable plaid flannel shirt",
+				"headline" :  "Velcro Shoes",
+				"excerpt" : "Available in both boys' and girls' sizes",
 				"label" : "$70"
 			}
 		]

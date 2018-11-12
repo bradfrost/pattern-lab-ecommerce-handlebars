@@ -40,6 +40,18 @@
 	cursor: pointer;
 	font-family: $font-family-secondary;
 	font-size: $font-size-med-2;
+    line-height: 1;
 	text-transform: uppercase;
+    transition: background $anim-fade-quick $anim-ease;
+
+    .c-primary-nav__item--highlight & {
+        color: $color-neutral-white;
+        background: $color-brand-orange;
+        padding: 0.5rem;
+
+        &:hover, &:focus {
+            background: $color-brand-blue-dark;
+        }
+    }
 
 }

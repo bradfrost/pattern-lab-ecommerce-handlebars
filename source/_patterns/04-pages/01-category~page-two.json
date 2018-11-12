@@ -11,10 +11,10 @@
 				"url" : "link.pages-detail",
                 "stackedBlockMedia": {
     				"src" : "../../../images/women-shiny-sneakers.jpg",
-    				"alt" : "woman in sweater"
+    				"alt" : "patent leather sneakers"
                 },
-				"headline" : "Navy Blue Dress",
-				"excerpt" : "This casual navy blue dress is great for whipping up a dinner with friends",
+				"headline" : "Patent Leather Everyday Shoes",
+				"excerpt" : "Available in brown and black. Overnight shipping available",
 				"label" : "$190"
 			},
 			{
@@ -22,10 +22,10 @@
 				"url" : "link.pages-detail",
                 "stackedBlockMedia": {
     				"src" : "../../../images/women-white-heels.jpg",
-    				"alt" : "woman in sweater"
+    				"alt" : "white high heels"
                 },
-				"headline" :  "Long Button-Down Sweater",
-				"excerpt" : "Stay warm and look stylish in this button-down peach sweater that extends to your waist",
+				"headline" :  "Shiny High Heels",
+				"excerpt" : "Available in 5 colors",
 				"label" : "$95"
 			}
 		]

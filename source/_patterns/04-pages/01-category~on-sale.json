@@ -1,49 +1,10 @@
 {
-	"hero" : {
-		"url": "link.pages-detail",
-		"src": "../../images/group-shoes.jpg",
-		"alt": "Group of shoes",
-		"headline" :  "Shoes For The Soul"
-	},
-	"promoBlock": {
-		"promoBlockLink": {
-			"url": "#"
-		},
-		"src": "../../images/women-boots.jpg",
-		"alt": "Women's boots",
-		"heading": "Go Out In Style",
-		"description": "Dive into the Fall season with these stylish casual boots that are great for a jump in the leaves or a night out on the town."
-	},
-	"toutSection" : {
-		"styleModifier" : "l-grid--4up",
-		"toutList" : [
-			{
-				"url": "link.pages-category",
-				"headline":  "Women's fashion",
-				"imgLandscapeSrc" : "../../images/woman-outside-brownstone.jpg",
-				"imgLandscapeAlt" : "Woman in sweater"
-			},
-			{
-				"url": "link.pages-category",
-				"headline": "Men's fashion",
-				"imgLandscapeSrc" : "../../images/smiling-man-in-formalwear.jpg",
-				"imgLandscapeAlt" : "Man in formalwear"
-			},
-			{
-				"url": "link.pages-category",
-				"headline": "Kid's Fashion",
-				"imgLandscapeSrc" : "../../images/father-daughter-fashion.jpg",
-				"imgLandscapeAlt" : "Child with father"
-			}
-	    ]
-	},
-	"inset-blocks" : [
-		{
-			"headline" : "This is the headline for the inset block"
-		}
-	],
-	"latestPosts" : {
-		"sectionTitle": "On Sale",
+	"page": {
+        "title" : "On Sale",
+        "description": false
+    },
+	"stackedBlockSection" : {
+		"styleModifier": "u-margin-bottom-large",
 		"stackedBlockList": [
 			{
 				"styleModifier" : "",
@@ -106,11 +67,38 @@
 					"price": "$85"
 				}
 
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+				"stackedBlockMedia": {
+					"src" : "../../../images/men-brown-shoes.jpg",
+					"alt" : "woman in sweater"
+				},
+				"headline" :  "Pinstripe Skirt and Tank Top",
+				"excerpt" : "This pinstripe skirt and tank top are a great pairing for a friendly get-together",
+				"label" : "$120",
+				"onSale": {
+					"badge": "Sale",
+					"price": "$155"
+				}
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+                "stackedBlockMedia": {
+    				"src" : "../../../images/women-leather-booties.jpg",
+    				"alt" : "woman in sweater"
+                },
+				"headline" :  "Long Button-Down Sweater",
+				"excerpt" : "Comes in 2 colors",
+				"label" : "$95",
+				"onSale": {
+					"badge": "Sale",
+					"price": "$135"
+				}
 			}
-		],
-		"btnTag": false,
-		"linkTag": true,
-		"url": "link.pages-category-on-sale",
-		"buttonText" : "See All Sale Items"
-	}
+		]
+	},
+	"paginationList": false
 }

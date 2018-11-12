@@ -10,11 +10,57 @@
 				"styleModifier" : "",
 				"url" : "link.pages-detail",
 				"stackedBlockMedia": {
+					"src" : "../../images/women-blue-heels.jpg",
+					"alt" : "blue high heels"
+				},
+				"headline" : "Blue Suede Heels",
+				"excerpt" : "Available in 5 colors",
+				"label" : "$80",
+				"onSale": {
+					"badge": "Sale",
+					"price": "$110"
+				}
+
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+				"stackedBlockMedia": {
+					"src" : "../../images/women-hiking-boots.jpg",
+					"alt" : "brown leather boots"
+				},
+				"headline" : "Leather Boots",
+				"excerpt" : "Available in 2 colors. Overnight shipping available",
+				"label" : "$120",
+				"onSale": {
+					"badge": "Sale",
+					"price": "$150"
+				}
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+				"stackedBlockMedia": {
+					"src" : "../../../images/women-leather-booties.jpg",
+					"alt" : "black leather booties"
+				},
+				"headline" :  "Black Leather Booties",
+				"excerpt" : "Available in 3 colors.",
+				"label" : "$95",
+				"onSale": {
+					"badge": "Sale",
+					"price": "$135"
+				}
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+				"stackedBlockMedia": {
 					"src" : "../../../images/women-boot-wedges.jpg",
-					"alt" : "woman in sweater"
+					"alt" : "women's wedge boots"
 				},
 				"headline" :  "Suede Booties",
-				"excerpt" : "Comes in 2 colors. Overnight shipping available",
+				"excerpt" : "Available in 2 colors. Overnight shipping available",
 				"label" : "$120"
 			},
 			{
@@ -22,33 +68,21 @@
 				"url" : "link.pages-detail",
                 "stackedBlockMedia": {
     				"src" : "../../../images/women-adidas.jpg",
-    				"alt" : "woman in sweater"
+    				"alt" : "Adidas shoes"
                 },
-				"headline" : "Striped Wool Sweater",
-				"excerpt" : "Comes in 2 colors",
+				"headline" : "White Adidas Sneakers",
+				"excerpt" : "Available in 2 colors",
 				"label" : "$90"
 			},
 			{
 				"styleModifier" : "",
 				"url" : "link.pages-detail",
                 "stackedBlockMedia": {
-    				"src" : "../../../images/women-blue-heels.jpg",
-    				"alt" : "woman in sweater"
-                },
-				"headline" : "Down Jacket",
-				"excerpt" : "Comes in 2 colors",
-				"label" : "$230"
-
-			},
-			{
-				"styleModifier" : "",
-				"url" : "link.pages-detail",
-                "stackedBlockMedia": {
     				"src" : "../../../images/women-boots.jpg",
-    				"alt" : "leather boots"
+    				"alt" : "light tan leather boots"
                 },
-				"headline" :  "Plaid Flannel Button-Down Shirt",
-				"excerpt" : "Comes in 2 colors",
+				"headline" :  "Light Tan Boots",
+				"excerpt" : "Available in 3 colors",
 				"label" : "$70"
 			},
 			{
@@ -56,10 +90,10 @@
 				"url" : "link.pages-detail",
                 "stackedBlockMedia": {
     				"src" : "../../../images/women-colorful.jpg",
-    				"alt" : "woman in sweater"
+    				"alt" : "technicolor sneakers"
                 },
-				"headline" : "Black Long-sleeved Shirt",
-				"excerpt" : "Comes in 2 colors",
+				"headline" : "Multicolored Running Shoes",
+				"excerpt": false,
 				"label" : "$75"
 			},
 			{
@@ -67,34 +101,12 @@
 				"url" : "link.pages-detail",
                 "stackedBlockMedia": {
     				"src" : "../../../images/women-combat-boots.jpg",
-    				"alt" : "woman in sweater"
+    				"alt" : "black leather high ankle boots"
                 },
-				"headline" : "Pinstripe Blazer",
-				"excerpt" : "Comes in 2 colors",
+				"headline" : "Black Leather Boots",
+				"excerpt" : "Made of 100% authentic leather",
 				"label" : "$180"
 
-			},
-			{
-				"styleModifier" : "",
-				"url" : "link.pages-detail",
-                "stackedBlockMedia": {
-    				"src" : "../../../images/women-hiking-boots.jpg",
-    				"alt" : "woman in sweater"
-                },
-				"headline" : "Cream Blazer",
-				"excerpt" : false,
-				"label" : "$180"
-			},
-			{
-				"styleModifier" : "",
-				"url" : "link.pages-detail",
-                "stackedBlockMedia": {
-    				"src" : "../../../images/women-leather-booties.jpg",
-    				"alt" : "woman in sweater"
-                },
-				"headline" :  "Long Button-Down Sweater",
-				"excerpt" : "Comes in 2 colors",
-				"label" : "$95"
 			}
 		]
 	},

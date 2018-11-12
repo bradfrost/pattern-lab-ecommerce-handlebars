@@ -16,17 +16,6 @@
 				"headline" : "Patent Leather Everyday Shoes",
 				"excerpt" : "Available in brown and black. Overnight shipping available",
 				"label" : "$190"
-			},
-			{
-				"styleModifier" : "",
-				"url" : "link.pages-detail",
-                "stackedBlockMedia": {
-    				"src" : "../../../images/women-white-heels.jpg",
-    				"alt" : "white high heels"
-                },
-				"headline" :  "Shiny High Heels",
-				"excerpt" : "Available in 5 colors",
-				"label" : "$95"
 			}
 		]
 	},

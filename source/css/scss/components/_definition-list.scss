@@ -7,6 +7,7 @@
 */
 .c-definition-list {
  	display: flex;
+	justify-content: space-between;
 	margin: 0 0 1rem;
 }
 
@@ -15,7 +16,6 @@
 */
 .c-definition-list__item {
    margin-right: 2rem;
-   width: 200px;
 
    &:last-child {
 	   margin-right: 0;
@@ -41,10 +41,5 @@
 	.c-definition-list-list--lined & {
 		margin-bottom: 1rem;
 		border-bottom: 1px solid $color-neutral-gray-13;
-
-		&:last-child {
-			margin-bottom: 0;
-			border-bottom: none;
-		}
 	}
 }

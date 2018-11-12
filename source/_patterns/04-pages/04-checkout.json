@@ -1,30 +1,28 @@
 {
-    "fields" : [
-        {
-            "label" : "Name"
-        },
-        {
-            "label" : "Address"
-        },
-        {
-            "label" : "City"
-        },
-        {
-            "label" : "State"
-        },
-        {
-            "label" : "Zip Code"
-        },
-        {
-            "label" : "Credit Card Number"
-        },
-        {
-            "label" : "Expiration Date"
-        },
-        {
-            "label" : "CVV"
-        }
-    ],
+    "page": {
+        "title": "Shipping & Billing",
+        "description": "Please make sure your order is correct and fill out your billing information below."
+    },
+    "stripeList": [
+		{
+			"url": "#",
+			"src": "../../images/women-boot-wedges.jpg",
+			"alt": "placeholder image",
+            "stripeField": {
+                "styleModifier": "c-field--small",
+                "readOnly": true,
+                "disabled": true,
+                "label": "Quantity",
+                "value": "1"
+            },
+			"headline": "Suede Booties",
+			"cartPrice": {
+				"label": "Price",
+				"meta": "$120"
+			}
+		}
+	],
+    "sectionTitle": "Shipping Address",
     "formFields" : {
         "items": [
             {
@@ -65,6 +63,12 @@
             {
                 "textField": {
                     "label" : "CVV"
+                }
+            },
+            {
+                "inlineCheckbox": {
+                    "styleModifier": "u-margin-bottom-large",
+                    "label": "Billing address is the same as shipping"
                 }
             }
         ]

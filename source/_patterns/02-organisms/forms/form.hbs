@@ -30,6 +30,11 @@
 						{{> molecules-checkbox-field }}
 					{{/ with}}
 				{{/ if }}
+				{{#if inlineCheckbox }}
+					{{# with inlineCheckbox }}
+						{{> molecules-inline-checkbox }}
+					{{/ with}}
+				{{/ if }}
 		    {{/ each }}
 		  {{/ with }}
 		{{/ if }}

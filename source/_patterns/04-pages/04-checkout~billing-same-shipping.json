@@ -22,7 +22,7 @@
     },
     "page": {
         "title": "Billing Information",
-        "description": "Please make sure your order is correct and fill out your shipping information below."
+        "description": "Please fill out your billing address and payment information below."
     },
     "formFields" : {
         "items": [

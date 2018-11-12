@@ -64,8 +64,11 @@
 	}
 
 	.l-page-layout--reversed & {
+		margin-bottom: 2rem;
+		
 		@media all and (min-width: $bp-large) {
 			order: 1;
+			margin-bottom: 0;
 		}
 	}
 }

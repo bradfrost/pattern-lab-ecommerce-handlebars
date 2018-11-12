@@ -11,6 +11,10 @@
 	@media all and (min-width: $bp-small-2) {
 		display: flex;
 	}
+
+	.c-stripe-list--condensed & {
+		padding: 1rem 0;
+	}
 }
 
 /**
@@ -22,6 +26,10 @@
 
 	@media all and (min-width: $bp-small-2) {
 		width: 20%;
+	}
+
+	.c-stripe-list--condensed & {
+		display: none;
 	}
 }
 

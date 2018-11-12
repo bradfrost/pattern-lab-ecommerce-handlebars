@@ -3,26 +3,6 @@
         "title": "Shipping Information",
         "description": "Please fill out your shipping information below."
     },
-    "stripeList": [
-		{
-			"url": "#",
-			"src": "../../images/women-boot-wedges.jpg",
-			"alt": "placeholder image",
-            "stripeField": {
-                "styleModifier": "c-field--small",
-                "readOnly": true,
-                "disabled": true,
-                "label": "Quantity",
-                "value": "1"
-            },
-			"headline": "Suede Booties",
-			"cartPrice": {
-				"label": "Price",
-				"meta": "$120"
-			}
-		}
-	],
-    "sectionTitle": "Shipping Address",
     "formFields" : {
         "items": [
             {
@@ -66,5 +46,42 @@
             "url" : "link.pages-checkout-billing",
             "buttonText": "Continue to Billing"
         }
-    ]
+    ],
+    "definitionListSection": {
+        "styleModifier":"c-definition-list-list--lined",
+        "definitionItems": [
+            {
+                "definitionList": {
+            		"items": [
+            			{
+            				"term": "Item",
+            				"description": "Suede Booties"
+            			},
+            			{
+            				"term": "Quantity",
+            				"description": "1"
+            			},
+            			{
+            				"term": "Price",
+            				"description": "$120"
+            			}
+            		]
+            	}
+            },
+            {
+                "definitionList": {
+            		"items": [
+            			{
+            			},
+            			{
+            			},
+            			{
+            				"term": "Total",
+            				"description": "$120"
+            			}
+            		]
+            	}
+            }
+        ]
+    }
 }

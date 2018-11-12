@@ -10,24 +10,10 @@
 		{{> molecules-promo-block }}
 		{{/ promoBlock }}
 
-		{{# toutSection }}
-		{{> organisms-tout-list }}
-		{{/ toutSection }}
 
-		{{# latestPosts }}
-		<section class="c-section">
-			{{#if sectionTitle}}
-			<header class="c-section__header">
-				<h2 class="c-section__title">{{ sectionTitle }}</h2>
-			</header>
-			{{/ if }}
-
-			{{> organisms-stacked-block-list }}
-
-			{{> molecules-button }}
-
-		</section><!--end section-->
-		{{/ latestPosts }}
+		{{#with saleSection}}
+		{{> organisms-stacked-block-section }}
+		{{/with}}
 
 	</div>
 

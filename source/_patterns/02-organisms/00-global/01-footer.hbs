@@ -1,12 +1,16 @@
 <footer class="c-footer" role="contentinfo">
 
 	<div class="c-footer__inner l-container">
-
-		{{# footerLogo }}
-		{{> molecules-logo }}
-		{{/ footerLogo }}
-
-		{{> molecules-footer-nav }}
+		<div class="c-footer__top">
+			{{# footerLogo }}
+			{{> molecules-logo }}
+			{{/ footerLogo }}
+		</div>
+		<div class="c-footer__bottom">
+			{{> molecules-footer-nav }}
+			<div class="c-footer__credit">All images acquired from <a href='https://www.pexels.com/'>Pexels</a> and <a href='https://unsplash.com/'>Unsplash</a>.</div>
+			<div class="c-footer__copyright">Copyright © 2018 SoulSoles. All Rights Reserved.</div>
+		</div>
 
 	</div><!--end l-container-->
 

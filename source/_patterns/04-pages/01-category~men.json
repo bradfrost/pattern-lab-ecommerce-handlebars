@@ -9,23 +9,42 @@
 			{
 				"styleModifier" : "",
 				"url" : "link.pages-detail",
-                "stackedBlockMedia": {
-    				"src" : "../../../images/men-blue-shoes.jpg",
-    				"alt" : "woman in sweater"
-                },
-				"headline" : "Striped Wool Sweater",
-				"excerpt" : "Orange and white sweater made from 100% wool and stylish for those brisk Fall and Winter months",
-				"label" : "$90"
+				"stackedBlockMedia": {
+					"src" : "../../images/men-blue-shoes.jpg",
+					"alt" : "blue walking shoes"
+				},
+				"headline" : "Walking Shoes",
+				"excerpt" : "This casual pair of shoes will have you looking dapper in the city",
+				"label" : "$60",
+				"onSale": {
+					"badge": "Sale",
+					"price": "$90"
+				}
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+				"stackedBlockMedia": {
+					"src" : "../../../images/men-brown-shoes.jpg",
+					"alt" : "woman in sweater"
+				},
+				"headline" :  "Embroidered Dress Shoes",
+				"excerpt" : "Available in 2 colors. Made of 100% authentic leather",
+				"label" : "$120",
+				"onSale": {
+					"badge": "Sale",
+					"price": "$155"
+				}
 			},
 			{
 				"styleModifier" : "",
 				"url" : "link.pages-detail",
                 "stackedBlockMedia": {
     				"src" : "../../../images/men-brown-dress-shoes.jpg",
-    				"alt" : "woman in sweater"
+    				"alt" : "brown dress shoes"
                 },
-				"headline" : "Down Jacket",
-				"excerpt" : "This down jacket will protect you from the snowy weather while accenting your outfit during the winter months",
+				"headline" : "Brown Dress Shoes",
+				"excerpt" : "Made of 100% authentic leather in USA",
 				"label" : "$230"
 
 			},
@@ -33,22 +52,11 @@
 				"styleModifier" : "",
 				"url" : "link.pages-detail",
                 "stackedBlockMedia": {
-    				"src" : "../../../images/men-brown-shoes.jpg",
-    				"alt" : "woman in sweater"
-                },
-				"headline" :  "Pinstripe Skirt and Tank Top",
-				"excerpt" : "This pinstripe skirt and tank top are a great pairing for a friendly get-together",
-				"label" : "$120"
-			},
-			{
-				"styleModifier" : "",
-				"url" : "link.pages-detail",
-                "stackedBlockMedia": {
     				"src" : "../../../images/men-casual-shoes.jpg",
-    				"alt" : "leather boots"
+    				"alt" : "black striped sneakers"
                 },
-				"headline" :  "Plaid Flannel Button-Down Shirt",
-				"excerpt" : "Lounge around during the cold months in this comfortable plaid flannel shirt",
+				"headline" :  "Striped Casual Walking Shoes",
+				"excerpt" : "Available in 3 styles",
 				"label" : "$70"
 			},
 			{
@@ -56,10 +64,10 @@
 				"url" : "link.pages-detail",
                 "stackedBlockMedia": {
     				"src" : "../../../images/men-gray-shoes.jpg",
-    				"alt" : "woman in sweater"
+    				"alt" : "Gray walking shoes."
                 },
-				"headline" : "Pinstripe Blazer",
-				"excerpt" : "This fashionable pinstripe blazer is perfect for a job interview or a happy hour",
+				"headline" : "Gray casual walking shoes",
+				"excerpt" : false,
 				"label" : "$180"
 
 			},
@@ -68,10 +76,10 @@
 				"url" : "link.pages-detail",
                 "stackedBlockMedia": {
     				"src" : "../../../images/men-loafers.jpg",
-    				"alt" : "woman in sweater"
+    				"alt" : "men's loafers"
                 },
-				"headline" : "Cream Blazer",
-				"excerpt" :  "Look professional at your business meetings or with friends on the town in this cream blazer",
+				"headline" : "Loafers",
+				"excerpt" :  "Available in a variety of colors",
 				"label" : "$180"
 			},
 			{
@@ -79,10 +87,10 @@
 				"url" : "link.pages-detail",
                 "stackedBlockMedia": {
     				"src" : "../../../images/men-walking-shoes.jpg",
-    				"alt" : "woman in sweater"
+    				"alt" : "men's running shoes"
                 },
-				"headline" :  "Long Button-Down Sweater",
-				"excerpt" : "Stay warm and look stylish in this button-down peach sweater that extends to your waist",
+				"headline" :  "Running Shoes",
+				"excerpt" : "Available in low-top and high-top.",
 				"label" : "$95"
 			},
 			{
@@ -90,10 +98,10 @@
 				"url" : "link.pages-detail",
                 "stackedBlockMedia": {
     				"src" : "../../../images/men-winter-boots.jpg",
-    				"alt" : "woman in sweater"
+    				"alt" : "men's winter boots"
                 },
-				"headline" : "Navy Blue Dress",
-				"excerpt" : "This casual navy blue dress is great for whipping up a dinner with friends",
+				"headline" : "Steel Toe Boots",
+				"excerpt" : "Available in 2 colors. Made in USA",
 				"label" : "$190"
 			}
 		]

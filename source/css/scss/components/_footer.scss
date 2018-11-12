@@ -10,3 +10,9 @@
 	margin-top: 2rem;
 	background: $color-brand-blue-dark;
 }
+
+.c-footer__inner {
+	@media all and (min-width: $bp-med) {
+		display: flex;
+	}
+}

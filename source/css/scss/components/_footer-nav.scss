@@ -5,6 +5,24 @@
 /**
  * 1) Global block at the bottom of each page that contains a navigation and other information
  */
+.c-footer-nav {
+	@media all and (min-width: $bp-med) {
+		display: flex;
+		margin-left: auto;
+	}
+}
+
+.c-footer-nav__item {
+
+	@media all and (min-width: $bp-med) {
+		margin-right: 2rem;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
 .c-footer-nav__link {
 	color: $color-neutral-white;
 	font-family: $font-family-secondary;

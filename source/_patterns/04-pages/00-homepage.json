@@ -90,22 +90,6 @@
 					"price": "$110"
 				}
 
-			},
-			{
-				"styleModifier" : "",
-				"url" : "link.pages-detail",
-				"stackedBlockMedia": {
-					"src" : "../../images/men-chucks.jpg",
-					"alt" : "chuck taylor shoes"
-				},
-				"headline" : "Boys Chucks",
-				"excerpt" : "These shoes are a great mix between athlete and trend setter",
-				"label" : "$50",
-				"onSale": {
-					"badge": "Sale",
-					"price": "$85"
-				}
-
 			}
 		],
 		"btnTag": false,

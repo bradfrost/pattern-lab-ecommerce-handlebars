@@ -12,61 +12,66 @@
         "label": "$120"
     },
     "checkoutForm": {
-        "fields": false,
-        "selectField": {
-            "label": "Pick a Size",
-            "selectOptions" : [
+        "formFields": {
+            "items": [
                 {
-                    "value" : "size-1",
-                    "option" : "Size 5"
-                },
-                {
-                    "value" : "size-2",
-                    "option" : "Size 5.5"
-                },
-                {
-                    "value" : "size-3",
-                    "option" : "Size 6"
-                },
-                {
-                    "value" : "size-4",
-                    "option" : "Size 6.5"
-                },
-                {
-                    "value" : "size-5",
-                    "option" : "Size 7"
-                },
-                {
-                    "value" : "size-6",
-                    "option" : "Size 7.5"
-                },
-                {
-                    "value" : "size-7",
-                    "option" : "Size 8"
-                },
-                {
-                    "value" : "size-8",
-                    "option" : "Size 8.5"
-                },
-                {
-                    "value" : "size-9",
-                    "option" : "Size 9"
-                },
-                {
-                    "value" : "size-10",
-                    "option" : "Size 9.5"
-                },
-                {
-                    "value" : "size-11",
-                    "option" : "Size 10"
-                },
-                {
-                    "value" : "size-12",
-                    "option" : "Size 10.5"
-                },
-                {
-                    "value" : "size-13",
-                    "option" : "Size 11"
+                    "selectField": {
+                        "label": "Pick a Size",
+                        "selectOptions" : [
+                            {
+                                "value" : "size-1",
+                                "option" : "Size 5"
+                            },
+                            {
+                                "value" : "size-2",
+                                "option" : "Size 5.5"
+                            },
+                            {
+                                "value" : "size-3",
+                                "option" : "Size 6"
+                            },
+                            {
+                                "value" : "size-4",
+                                "option" : "Size 6.5"
+                            },
+                            {
+                                "value" : "size-5",
+                                "option" : "Size 7"
+                            },
+                            {
+                                "value" : "size-6",
+                                "option" : "Size 7.5"
+                            },
+                            {
+                                "value" : "size-7",
+                                "option" : "Size 8"
+                            },
+                            {
+                                "value" : "size-8",
+                                "option" : "Size 8.5"
+                            },
+                            {
+                                "value" : "size-9",
+                                "option" : "Size 9"
+                            },
+                            {
+                                "value" : "size-10",
+                                "option" : "Size 9.5"
+                            },
+                            {
+                                "value" : "size-11",
+                                "option" : "Size 10"
+                            },
+                            {
+                                "value" : "size-12",
+                                "option" : "Size 10.5"
+                            },
+                            {
+                                "value" : "size-13",
+                                "option" : "Size 11"
+                            }
+                        ]
+                    }
                 }
             ]
         },

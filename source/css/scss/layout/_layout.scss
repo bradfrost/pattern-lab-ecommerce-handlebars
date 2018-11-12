@@ -9,8 +9,12 @@
  */
 .l-container {
 	max-width: $l-max-width;
-	padding: 0 1rem;
+	padding: 0 $spacing;
 	margin: 0 auto;
+
+	@media all and (min-width: $bp-large) {
+		padding: 0 $spacing-large;
+	}
 }
 
 .l-container--narrow {
@@ -79,8 +83,8 @@
 
 	@supports (display: grid) {
 		display: grid;
-		grid-gap: 16px;
-		grid-template-columns: repeat(auto-fill, minmax(285px, 1fr) );
+		grid-gap: $spacing-large;
+		grid-template-columns: repeat(auto-fill, minmax(320px, 1fr) );
 		margin: 0;
 	}
 }

@@ -24,7 +24,7 @@
  * Primary navigation item
  */
 .c-primary-nav__item {
-	margin-right: 1rem;
+	margin-right: 2rem;
 
     &:last-child {
         margin-right: 0;
@@ -36,7 +36,6 @@
  */
 .c-primary-nav__link {
 	display: block;
-	padding: 0.5rem 0;
 	cursor: pointer;
 	font-family: $font-family-secondary;
 	font-size: $font-size-med-2;

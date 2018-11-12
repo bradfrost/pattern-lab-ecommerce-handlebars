@@ -95,6 +95,17 @@
 				"headline" :  "Long Button-Down Sweater",
 				"excerpt" : "Comes in 2 colors",
 				"label" : "$95"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-detail",
+                "stackedBlockMedia": {
+    				"src" : "../../../images/women-leather-booties.jpg",
+    				"alt" : "woman in sweater"
+                },
+				"headline" :  "Long Button-Down Sweater",
+				"excerpt" : "Comes in 2 colors",
+				"label" : "$95"
 			}
 		]
 	},

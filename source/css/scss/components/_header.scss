@@ -15,8 +15,9 @@
 .c-header__inner {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
+	border-bottom: 1px solid $color-neutral-gray-13;
 
-	@media all and (min-width: $bp-med) {
+	@media all and (min-width: 26em) {
 		display: flex;
 		align-items: center;
 	}

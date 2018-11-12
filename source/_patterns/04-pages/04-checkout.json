@@ -16,9 +16,6 @@
             "label" : "Zip Code"
         },
         {
-            "label" : "Zip Code"
-        },
-        {
             "label" : "Credit Card Number"
         },
         {
@@ -28,6 +25,50 @@
             "label" : "CVV"
         }
     ],
+    "formFields" : {
+        "items": [
+            {
+                "textField": {
+                    "label" : "Name"
+                }
+            },
+            {
+                "textField": {
+                    "label" : "Address"
+                }
+            },
+            {
+                "textField": {
+                    "label" : "City"
+                }
+            },
+            {
+                "textField": {
+                    "label" : "State"
+                }
+            },
+            {
+                "textField": {
+                    "label" : "Zip Code"
+                }
+            },
+            {
+                "textField": {
+                    "label" : "Credit Card Number"
+                }
+            },
+            {
+                "textField": {
+                    "label" : "Expiration Date"
+                }
+            },
+            {
+                "textField": {
+                    "label" : "CVV"
+                }
+            }
+        ]
+    },
     "selectField": false,
     "buttonGroup" : [
         {

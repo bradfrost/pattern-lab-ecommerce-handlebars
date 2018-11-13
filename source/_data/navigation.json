@@ -34,6 +34,14 @@
             "styleModifier": "c-primary-nav__item--highlight",
             "label" : "On Sale",
             "url" : "link.pages-category-on-sale"
+        },
+        {
+            "label": false,
+            "navIcon": {
+                "iconPath": "../../icons.svg",
+                "navIcon": "shopping-cart"
+            },
+            "url" : "link.pages-cart"
         }
     ],
     "footerNav" : [

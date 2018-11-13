@@ -21,18 +21,18 @@
 			},
 			"styleModifier": "c-promo-block--right",
 			"src": "../../images/men-casual-shoes.jpg",
-			"alt": "Women's boots",
-			"heading": "Go Out In Style",
-			"description": "Dive into the Fall season with these stylish casual boots that are great for a jump in the leaves or a night out on the town."
+			"alt": "striped sneakers",
+			"heading": "Casual But Classy",
+			"description": "Feel comfortable in your own shoes no matter what the situation."
 		},
 		{
 			"promoBlockLink": {
 				"url": "#"
 			},
 			"src": "../../images/women-hiking-boots.jpg",
-			"alt": "Women's boots",
-			"heading": "Go Out In Style",
-			"description": "Dive into the Fall season with these stylish casual boots that are great for a jump in the leaves or a night out on the town."
+			"alt": "hiking boots in woods",
+			"heading": "Immerse Yourself In Nature",
+			"description": "Explore the outdoors and clear your head with a hike in one of our sleek boot styles."
 		},
 		{
 			"promoBlockLink": {
@@ -40,9 +40,9 @@
 			},
 			"styleModifier": "c-promo-block--right u-margin-bottom-large",
 			"src": "../../images/kids-velcro.jpg",
-			"alt": "Women's boots",
-			"heading": "Go Out In Style",
-			"description": "Dive into the Fall season with these stylish casual boots that are great for a jump in the leaves or a night out on the town."
+			"alt": "kid's velcro shoes",
+			"heading": "Discover the Unknown",
+			"description": "Take the path least traveled and write your own story with our shoes."
 		}
 	],
 	"toutSection" : {

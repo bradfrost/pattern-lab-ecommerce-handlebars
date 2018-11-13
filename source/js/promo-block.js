@@ -14,21 +14,20 @@
             rootMargin: "0px",
             threshold: 1.0
         };
-    
+
         observer = new IntersectionObserver(handleIntersect, options);
-    
+
         promoBlocks.forEach(promoBlock => {
             promoBlock.classList.add('c-promo-block__body--initial');
-    
+
             observer.observe(promoBlock);
 
-            console.log('hey hey hey')
         });
     }
 
     function handleIntersect(entries, observer) {
         entries.forEach(function(entry) {
-    
+
             if (entry.intersectionRatio > 0) {
                 entry.target.classList.remove('c-promo-block__body--initial');
                 observer.unobserve(entry.target);

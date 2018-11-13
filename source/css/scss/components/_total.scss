@@ -25,17 +25,37 @@
 }
 
 .c-total--no-break {
-    justify-content: flex-end;
+    justify-content: flex-start;
+
+    @media all and (min-width: $bp-large) {
+        justify-content: flex-end;
+    }
 }
 
 .c-total__label {
     font-weight: bold;
     margin-right: 0.5rem;
     padding-bottom: 0;
+
+    .c-total--no-break & {
+        width: 5rem;
+
+        @media all and (min-width: $bp-large) {
+            width: auto;
+        }
+    }
 }
 
 .c-total__span {
     font-family: $font-family-secondary;
     font-size: $font-size-med-2;
     color: $color-brand-blue;
+
+    .c-total--no-break & {
+        margin-left: 2rem;
+
+        @media all and (min-width: $bp-large) {
+            margin-left: 0;
+        }
+    }
 }

@@ -74,7 +74,7 @@
             "buttonTag" : false,
             "linkTag" : true,
             "url" : "link.pages-review",
-            "buttonText": "Submit Payment"
+            "buttonText": "Continue To Review Order"
         }
     ]
 }

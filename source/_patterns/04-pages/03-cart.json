@@ -18,11 +18,26 @@
 				"label": "Price",
 				"meta": "$120"
 			}
+		},
+        {
+			"url": "#",
+			"src": "../../images/men-brown-dress-shoes.jpg",
+			"alt": "placeholder image",
+            "stripeField": {
+                "styleModifier": "c-field--small",
+                "label": "Quantity",
+                "value": "1"
+            },
+			"headline": "Brown Dress Shoes",
+			"cartPrice": {
+				"label": "Price",
+				"meta": "$140"
+			}
 		}
 	],
     "totalPrice": {
         "label": "Total",
-        "number": "$120"
+        "number": "$360"
     },
     "checkoutButton": {
         "buttonTag": false,

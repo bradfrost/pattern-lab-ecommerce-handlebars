@@ -30,6 +30,11 @@
     max-width: $l-linelength-width;
 }
 
+.l-band {
+	background: $color-neutral-gray-02;
+	padding: 2rem 1rem;
+}
+
 /**
  * 2 column layout
  */
@@ -59,13 +64,13 @@
 	.l-page-layout--two-column & {
 		@media all and (min-width: $bp-large) {
 			width: 30%;
-			padding: 0 0 0 $spacing;
+			margin-left: 2rem;
 		}
 	}
 
 	.l-page-layout--reversed & {
 		margin-bottom: 2rem;
-		
+
 		@media all and (min-width: $bp-large) {
 			order: 1;
 			margin-bottom: 0;

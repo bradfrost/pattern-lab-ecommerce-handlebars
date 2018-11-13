@@ -6,8 +6,6 @@
 * 1) Definition list (`dl`) that contains a definition term (`dt`) and a definition description (`dd`)
 */
 .c-definition-list {
- 	display: flex;
-	justify-content: space-between;
 	margin: 0 0 1rem;
 }
 
@@ -15,11 +13,11 @@
 * Definition list item
 */
 .c-definition-list__item {
-   margin-right: 2rem;
+	display: flex;
 
-   &:last-child {
-	   margin-right: 0;
-   }
+	@media all and (min-width: $bp-large) {
+		justify-content: space-between;
+	}
 }
 
 /**
@@ -28,18 +26,16 @@
 .c-definition-list__term {
    font-weight: bold;
    margin-bottom: 0.25rem;
+   width: 5rem;
+
+   @media all and (min-width: $bp-large) {
+	   width: auto;
+   }
 }
 
 /**
 * Definition list description
 */
 .c-definition-list__description {
-	margin-left: 0;
-}
 
-.c-definition-list-list__item {
-	.c-definition-list-list--lined & {
-		margin-bottom: 1rem;
-		border-bottom: 1px solid $color-neutral-gray-13;
-	}
 }

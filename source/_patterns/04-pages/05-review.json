@@ -24,26 +24,52 @@
         "title": "Review Your Order",
         "description": "Please make sure your information is correct below before submitting your order."
     },
-    "stripeList": [
-		{
-			"url": "#",
-			"src": "../../images/women-boot-wedges.jpg",
-			"alt": "placeholder image",
-            "stripeField": {
-                "styleModifier": "c-field--small",
-                "readOnly": true,
-                "disabled": true,
-                "label": "Quantity",
-                "value": "1"
+    "definitionListSection": {
+        "styleModifier":"c-definition-list-list--lined",
+        "definitionItems": [
+            {
+                "definitionList": {
+            		"items": [
+            			{
+            				"term": "Item",
+            				"description": "Suede Booties"
+            			},
+            			{
+            				"term": "Quantity",
+            				"description": "1"
+            			},
+            			{
+            				"term": "Price",
+            				"description": "$120"
+            			}
+            		]
+            	}
             },
-			"headline": "Suede Booties",
-			"cartPrice": {
-				"label": "Price",
-				"meta": "$120"
-			}
-		}
-	],
-    "htmlText": "<h2>Shipping Address</h2><p>John Smith<br />99 Main Street<br />Pittsburgh, PA 15202</p><h2>Billing Address</h2><p>John Smith<br />99 Main Street<br />Pittsburgh, PA 15202</p><h2>Payment Information</h2><p><strong>Card Type</strong>Visa<br /><strong>Card #: </strong>********0000<br /><strong>Expiration: </strong>12/25</p>",
+            {
+                "definitionList": {
+            		"items": [
+            			{
+            				"term": "Item",
+            				"description": "Brown Dress Shoes"
+            			},
+            			{
+            				"term": "Quantity",
+            				"description": "1"
+            			},
+            			{
+            				"term": "Price",
+            				"description": "$140"
+            			}
+            		]
+            	}
+            }
+        ]
+    },
+    "totalPrice": {
+        "label": "Total",
+        "number": "$360"
+    },
+    "htmlText": "<h2>Order Items</h2><p><strong>Item </strong>Suede Booties<br /><strong>Quantity </strong>1<br /><strong>Price </strong>$120</p><p><strong>Item </strong>Brown Dress Shoes<br /><strong>Quantity </strong>1<br /><strong>Price </strong>$140</p><h2>Shipping Address</h2><p>John Smith<br />99 Main Street<br />Pittsburgh, PA 15202</p><h2>Billing Address</h2><p>John Smith<br />99 Main Street<br />Pittsburgh, PA 15202</p><h2>Payment Information</h2><p><strong>Card Type </strong>Visa<br /><strong>Card # </strong>********0000<br /><strong>Expiration </strong>12/25</p>",
     "buttonGroup":[
         {
             "buttonTag": false,

@@ -67,11 +67,29 @@
             			}
             		]
             	}
+            },
+            {
+                "definitionList": {
+            		"items": [
+            			{
+            				"term": "Item",
+            				"description": "Brown Dress Shoes"
+            			},
+            			{
+            				"term": "Quantity",
+            				"description": "1"
+            			},
+            			{
+            				"term": "Price",
+            				"description": "$140"
+            			}
+            		]
+            	}
             }
         ]
     },
     "totalPrice": {
         "label": "Total",
-        "number": "$120"
+        "number": "$360"
     }
 }

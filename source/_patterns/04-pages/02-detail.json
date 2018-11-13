@@ -84,5 +84,42 @@
             }
         ]
     },
-    "sectionTitle": "Related Items"
+    "stackedBlockSection": {
+        "sectionTitle": "Related Items",
+        "stackedBlockList": [
+    		{
+    			"styleModifier" : "",
+    			"url" : "link.pages-detail",
+    			"stackedBlockMedia": {
+    				"src" : "../../images/men-blue-shoes.jpg",
+    				"alt" : "blue walking shoes"
+    			},
+    			"headline" : "Walking Shoes",
+    			"excerpt" : "This casual pair of shoes will have you looking dapper in the city",
+    			"label" : "$60"
+    		},
+    		{
+    			"styleModifier" : "",
+    			"url" : "link.pages-detail",
+    			"stackedBlockMedia": {
+    				"src" : "../../images/women-hiking-boots.jpg",
+    				"alt" : "leather boots"
+    			},
+    			"headline" : "Leather Boots",
+    			"excerpt" : "Hike down the trail in these durable, 100% authentic leather boots.",
+    			"label" : "$120"
+    		},
+    		{
+    			"styleModifier" : "",
+    			"url" : "link.pages-detail",
+    			"stackedBlockMedia": {
+    				"src" : "../../images/women-blue-heels.jpg",
+    				"alt" : "blue heels"
+    			},
+    			"headline" : "Blue Suede Heels",
+    			"excerpt" : "Strut your stuff on the streets with these stunning high heels",
+    			"label" : "$80"
+    		}
+    	]
+    }
 }

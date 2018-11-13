@@ -18,7 +18,7 @@
 	padding-bottom: 1rem;
 	border-bottom: 1px solid $color-neutral-gray-13;
 
-	@media all and (min-width: 32em) {
+	@media all and (min-width: $bp-small-2) {
 		display: flex;
 		align-items: center;
 	}

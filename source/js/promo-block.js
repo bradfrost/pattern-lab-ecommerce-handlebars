@@ -1,19 +1,39 @@
 (function(){
     const promoBlocks = document.querySelectorAll('.c-promo-block__body');
 
-    observer = new IntersectionObserver(entries => {
+    // Set things up.
+    window.addEventListener("load", function(event) {
+        createObserver();
+    }, false);
 
-    entries.forEach(entry => {
-        if (entry.intersectionRatio > 0) {
-            entry.target.classList.remove('c-promo-block__body--initial');
-        }
-    });
-    });
+    function createObserver() {
+        var observer;
 
-    promoBlocks.forEach(promoBlock => {
-        promoBlock.classList.add('c-promo-block__body--initial');
+        var options = {
+            root: null,
+            rootMargin: "0px",
+            threshold: 1.0
+        };
+    
+        observer = new IntersectionObserver(handleIntersect, options);
+    
+        promoBlocks.forEach(promoBlock => {
+            promoBlock.classList.add('c-promo-block__body--initial');
+    
+            observer.observe(promoBlock);
 
-        observer.observe(promoBlock);
-    });
+            console.log('hey hey hey')
+        });
+    }
+
+    function handleIntersect(entries, observer) {
+        entries.forEach(function(entry) {
+    
+            if (entry.intersectionRatio > 0) {
+                entry.target.classList.remove('c-promo-block__body--initial');
+                observer.unobserve(entry.target);
+            }
+        });
+      }
 
 })();

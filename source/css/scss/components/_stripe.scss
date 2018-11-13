@@ -68,10 +68,16 @@
 
 	@media all and (min-width: $bp-small-2) {
 		margin-left: 2rem;
+		margin-bottom: 2.25rem;
 		width: 20%;
 		text-align: right;
 		flex: 1;
 	}
+}
+
+.c-stripe__meta-label {
+	font-weight: bold;
+	margin-bottom: 0.75rem;
 }
 
 .c-stripe__meta-span {

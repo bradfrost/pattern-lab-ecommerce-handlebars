@@ -120,9 +120,6 @@ gulp.task('svg-sprite', function () {
     .pipe(svgSprite({
       mode: 'symbols',
       cssFile: "../../css/svg-sprite.css",
-      preview: {
-          symbols: '../source/_patterns/00-atoms/images/icons.hbs'
-      },
       svg: {
         symbols: 'icons.svg'
       }

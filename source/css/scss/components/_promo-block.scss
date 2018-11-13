@@ -4,10 +4,14 @@
 
 /**
  * Large block containing an image and copy
+ * 1) Move promo block up to sit flush with hero
+ *    Normally we wouldn't do this, but we're taking
+ *    a shortcut for demo purposes.
  */
 .c-promo-block {
 	color: $color-neutral-white;
 	position: relative;
+	margin-top: -2rem; /* 1 */
 }
 
 
@@ -53,6 +57,7 @@
 
 .c-promo-block__img {
 	display: block;
+	width: 100%;
 }
 
 .c-promo-block__link {

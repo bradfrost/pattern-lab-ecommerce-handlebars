@@ -1,0 +1,11 @@
+{
+    "page" : {
+        "title" : false
+    },
+    "hero" : {
+		"url": "link.pages-detail",
+		"src": "../../images/group-shoes.jpg",
+		"alt": "Group of shoes",
+		"heading" :  "2019 Holiday Gift Guide"
+	}
+}

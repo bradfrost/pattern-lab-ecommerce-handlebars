@@ -2,8 +2,15 @@
 <main role="main">
 
 		<div class="l-container">
-
+			{{#if page.title }}
 			{{> molecules-page-header }}
+			{{/if}}
+
+			{{#if hero }}
+			{{#with hero }}
+			{{> molecules-hero }}
+			{{/with }}
+			{{/if}}
 
 			{{# stackedBlockSection }}
 			{{> organisms-stacked-block-list }}

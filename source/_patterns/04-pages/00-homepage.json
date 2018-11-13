@@ -1,10 +1,9 @@
 {
-	"headerStyleModifier": "u-margin-bottom-none",
 	"hero" : {
 		"url": "link.pages-detail",
 		"src": "../../images/group-shoes.jpg",
 		"alt": "Group of shoes",
-		"headline" :  "Shoes For The Soul"
+		"heading" :  "Shoes For The Soul"
 	},
 	"promoBlock": [
 		{

@@ -1,9 +1,16 @@
 /*------------------------------------*\
 	#HERO BLOCK
 \*------------------------------------*/
+
+/**
+ * 1) Sit hero flush with header. Normally we wouldn't 
+ *    do this and handle margin using utility classes,
+ *    but we're taking a shortcut for a demo.
+ */
 .c-hero {
     display: block;
     position: relative;
+    margin: -2rem 0 2rem; /* 1 */
 }
 
 /**

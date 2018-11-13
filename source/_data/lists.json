@@ -55,5 +55,34 @@
 				"meta": "meta"
 			}
 		}
-	]
+	],
+	"definitionList": {
+		"items": [
+			{
+				"term": "Definition List Term",
+				"description": "Definition list description",
+				"horizontalList": false
+			},
+			{
+				"term": "Definition List Term",
+				"description": "Definition list description",
+				"horizontalList": false
+			},
+			{
+				"term": "Definition List Term",
+				"description": "Definition list description",
+				"horizontalList": false
+			},
+			{
+				"term": "Definition List Term",
+				"description": "Definition list description",
+				"horizontalList": false
+			},
+			{
+				"term": "Definition List Term",
+				"description": "Definition list description",
+				"horizontalList": false
+			}
+		]
+	}
 }

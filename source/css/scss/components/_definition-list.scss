@@ -1,0 +1,45 @@
+/*------------------------------------*\
+   #DEFINITION LIST
+\*------------------------------------*/
+
+/**
+* 1) Definition list (`dl`) that contains a definition term (`dt`) and a definition description (`dd`)
+*/
+.c-definition-list {
+ 	display: flex;
+	justify-content: space-between;
+	margin: 0 0 1rem;
+}
+
+/**
+* Definition list item
+*/
+.c-definition-list__item {
+   margin-right: 2rem;
+
+   &:last-child {
+	   margin-right: 0;
+   }
+}
+
+/**
+* Definition list term
+*/
+.c-definition-list__term {
+   font-weight: bold;
+   margin-bottom: 0.25rem;
+}
+
+/**
+* Definition list description
+*/
+.c-definition-list__description {
+	margin-left: 0;
+}
+
+.c-definition-list-list__item {
+	.c-definition-list-list--lined & {
+		margin-bottom: 1rem;
+		border-bottom: 1px solid $color-neutral-gray-13;
+	}
+}

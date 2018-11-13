@@ -24,6 +24,10 @@
     }
 }
 
+.c-total--no-break {
+    justify-content: flex-end;
+}
+
 .c-total__label {
     font-weight: bold;
     margin-right: 0.5rem;

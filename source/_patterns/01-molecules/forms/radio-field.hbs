@@ -6,16 +6,16 @@
 
         <ul class="c-option-list {{ styleModifier }}">
 
-            {{# radios }}
+            {{#each radios }}
             <li class="c-option-list__item js-radio-trigger-parent">
 
                 <label class="c-input-group" for="{{ id }}">
-                    <input id="{{ id }}" type="radio" name="{{ name }}" value="{{ value }}" class="c-input-group__control js-radio-trigger" {{# checked}}checked{{/ checked }} {{# disabled }}disabled{{/ disabled }} {{# readOnly }}readonly{{/ readOnly }}>
+                    <input id="{{ id }}" type="radio" name="{{ name }}" value="{{ value }}" class="c-input-group__control js-radio-trigger" {{#if checked}}checked{{/ if }} {{#if disabled }}disabled{{/ if }} {{#if readOnly }}readonly{{/ if }}>
                     <span class="c-input-group__text">{{ label }}</span>
                 </label>
 
             </li><!-- end c-radio-list__item -->
-            {{/ radios }}
+            {{/ each }}
 
         </ul><!-- end c-option-list -->
 

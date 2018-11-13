@@ -60,28 +60,23 @@
 		"items": [
 			{
 				"term": "Definition List Term",
-				"description": "Definition list description",
-				"horizontalList": false
+				"description": "Definition list description"
 			},
 			{
 				"term": "Definition List Term",
-				"description": "Definition list description",
-				"horizontalList": false
+				"description": "Definition list description"
 			},
 			{
 				"term": "Definition List Term",
-				"description": "Definition list description",
-				"horizontalList": false
+				"description": "Definition list description"
 			},
 			{
 				"term": "Definition List Term",
-				"description": "Definition list description",
-				"horizontalList": false
+				"description": "Definition list description"
 			},
 			{
 				"term": "Definition List Term",
-				"description": "Definition list description",
-				"horizontalList": false
+				"description": "Definition list description"
 			}
 		]
 	}

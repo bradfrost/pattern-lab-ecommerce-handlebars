@@ -11,12 +11,12 @@
         {{# stripeField }}
         {{> molecules-text-field }}
         {{/ stripeField }}
-        {{# cartPrice }}
+        {{#with cartPrice }}
 		<div class="c-stripe__meta">
             <label class="c-stripe__meta-label">{{ label }}</label>
             <span class="c-stripe__meta-span">{{ meta }}</span>
         </div>
-        {{/ cartPrice }}
+        {{/ with }}
     </div>
 
 </div><!--end c-stripe-->

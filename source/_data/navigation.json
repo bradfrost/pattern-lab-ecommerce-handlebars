@@ -31,7 +31,6 @@
             "url" : "link.pages-category-kids"
         },
         {
-            "styleModifier": "c-primary-nav__item--highlight",
             "label" : "On Sale",
             "url" : "link.pages-category-on-sale"
         },

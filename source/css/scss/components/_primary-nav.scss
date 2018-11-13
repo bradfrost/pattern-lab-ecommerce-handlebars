@@ -47,17 +47,6 @@
     &:hover, &:focus {
         color: $color-brand-orange;
     }
-
-    .c-primary-nav__item--highlight & {
-        color: $color-neutral-white;
-        background: $color-brand-orange;
-        padding: 0.5rem;
-
-        &:hover, &:focus {
-            background: $color-brand-blue-dark;
-        }
-    }
-
 }
 
 .c-primary-nav__icon.c-icon {

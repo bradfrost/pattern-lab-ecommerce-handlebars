@@ -69,7 +69,7 @@
         "label": "Total",
         "number": "$360"
     },
-    "htmlText": "<h2>Order Items</h2><p><strong>Item </strong>Suede Booties<br /><strong>Quantity </strong>1<br /><strong>Price </strong>$120</p><p><strong>Item </strong>Brown Dress Shoes<br /><strong>Quantity </strong>1<br /><strong>Price </strong>$140</p><h2>Shipping Address</h2><p>John Smith<br />99 Main Street<br />Pittsburgh, PA 15202</p><h2>Billing Address</h2><p>John Smith<br />99 Main Street<br />Pittsburgh, PA 15202</p><h2>Payment Information</h2><p><strong>Card Type </strong>Visa<br /><strong>Card # </strong>********0000<br /><strong>Expiration </strong>12/25</p>",
+    "htmlText": "<h2>Shipping Address</h2><p>John Smith<br />99 Main Street<br />Pittsburgh, PA 15202</p><h2>Billing Address</h2><p>John Smith<br />99 Main Street<br />Pittsburgh, PA 15202</p><h2>Payment Information</h2><p><strong>Card Type </strong>Visa<br /><strong>Card # </strong>********0000<br /><strong>Expiration </strong>12/25</p>",
     "buttonGroup":[
         {
             "buttonTag": false,

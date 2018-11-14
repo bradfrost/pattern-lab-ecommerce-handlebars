@@ -15,6 +15,10 @@
     display: none;
 }
 
+#atoms-icons br {
+    display: none;
+}
+
 
 #atoms-icons .icon-boxes {
     display: flex;
@@ -41,8 +45,9 @@
     height: 6rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
-    background: #f5f5f5;
+    background: #fbfbfb;
     border: 1px solid #cccccd;
+    border-radius: 8px;
 }
 
 #atoms-icons .icon-boxes li h2 {

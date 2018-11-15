@@ -1,37 +1,70 @@
 {
 	"stackedBlockList": [
 		{
-			"styleModifier" : "",
-			"url" : "#",
+			"styleModifier": "",
+			"url": "#",
 			"stackedBlockMedia": {
 				"src": "http://via.placeholder.com/600x400",
-				"alt" : "placeholder image"
+				"alt": "placeholder image"
 			},
-			"headline" : "Heading ipsum dolor sit (39 characters)",
-			"excerpt" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-			"label" : "Label"
+			"headline": "Heading ipsum dolor sit (39 characters)",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+			"label": "Label"
 		},
 		{
-			"styleModifier" : "",
-			"url" : "#",
+			"styleModifier": "",
+			"url": "#",
 			"stackedBlockMedia": {
 				"src": "http://via.placeholder.com/600x400",
-				"alt" : "placeholder image"
+				"alt": "placeholder image"
 			},
-			"headline" : "Heading ipsum dolor sit (39 characters)",
-			"excerpt" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-			"label" : "Label"
+			"headline": "Heading ipsum dolor sit (39 characters)",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+			"label": "Label"
 		},
 		{
-			"styleModifier" : "",
-			"url" : "#",
+			"styleModifier": "",
+			"url": "#",
 			"stackedBlockMedia": {
 				"src": "http://via.placeholder.com/600x400",
-				"alt" : "placeholder image"
+				"alt": "placeholder image"
 			},
-			"headline" : "Heading ipsum dolor sit (39 characters)",
-			"excerpt" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-			"label" : "Label"
+			"headline": "Heading ipsum dolor sit (39 characters)",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+			"label": "Label"
+		},
+		{
+			"styleModifier": "",
+			"url": "#",
+			"stackedBlockMedia": {
+				"src": "http://via.placeholder.com/600x400",
+				"alt": "placeholder image"
+			},
+			"headline": "Heading ipsum dolor sit (39 characters)",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+			"label": "Label"
+		},
+		{
+			"styleModifier": "",
+			"url": "#",
+			"stackedBlockMedia": {
+				"src": "http://via.placeholder.com/600x400",
+				"alt": "placeholder image"
+			},
+			"headline": "Heading ipsum dolor sit (39 characters)",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+			"label": "Label"
+		},
+		{
+			"styleModifier": "",
+			"url": "#",
+			"stackedBlockMedia": {
+				"src": "http://via.placeholder.com/600x400",
+				"alt": "placeholder image"
+			},
+			"headline": "Heading ipsum dolor sit (39 characters)",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+			"label": "Label"
 		}
 	],
 	"stripeList": [

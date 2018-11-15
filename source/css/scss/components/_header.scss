@@ -8,6 +8,7 @@
 .c-header {
 	position: relative;
 	margin-bottom: 2rem;
+	border-bottom: 1px solid $color-neutral-gray-13;
 }
 
 /**
@@ -16,7 +17,6 @@
 .c-header__inner {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	border-bottom: 1px solid $color-neutral-gray-13;
 
 	@media all and (min-width: $bp-small-2) {
 		display: flex;
@@ -82,7 +82,7 @@
 	/**
 	 * Active header nav container within vertical header
 	 */
-	.c-header--vertical &{
+	.c-header--vertical & {
 		@media all and (min-width: $bp-xl) {
 			margin-left: 0;
 			width: 100%;

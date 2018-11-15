@@ -8,9 +8,9 @@
  *    but we're taking a shortcut for a demo.
  */
 .c-hero {
-    display: block;
-    position: relative;
-    margin: -2rem 0 2rem; /* 1 */
+	display: block;
+	position: relative;
+	margin: -2rem 0 2rem; /* 1 */
 }
 
 /**
@@ -18,24 +18,31 @@
  * 1) This is the primary hero image that runs full-bleed across the layout
  */
 .c-hero__img {
-    display: block;
-    width: 100%;
-    object-fit: cover;
+	display: block;
+	width: 100%;
+	object-fit: cover;
+	max-height: 70vh;
+	overflow: hidden;
 }
 
 .c-hero__body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0) 20%, #000 100%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 0) 0,
+		rgba(0, 0, 0, 0) 20%,
+		#000 100%
+	);
 }
 
 /**
@@ -43,14 +50,14 @@
  * 1) This sits overtop of the hero image when space permits
  */
 .c-hero__headline {
-    text-transform: uppercase;
-    font-size: $font-size-xl;
-    background-color: $color-brand-orange;
-    transition: all $anim-fade-quick $anim-ease;
+	text-transform: uppercase;
+	font-size: $font-size-xl;
+	background-color: $color-brand-orange;
+	transition: all $anim-fade-quick $anim-ease;
 
-    @media all and (min-width: $bp-med) {
-        padding: 0 0.4rem;
-        color: $color-neutral-white;
-        font-size: $font-size-xxl;
-    }
- }
+	@media all and (min-width: $bp-med) {
+		padding: 0 0.4rem;
+		color: $color-neutral-white;
+		font-size: $font-size-xxl;
+	}
+}

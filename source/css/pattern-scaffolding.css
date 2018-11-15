@@ -265,3 +265,11 @@
 #molecules-footer-nav .sg-pattern-example {
 	background: #041544;
 }
+
+.sg-pattern .c-hero {
+	margin: 0;
+}
+
+.sg-pattern .c-promo-block {
+	margin: 0;
+}
